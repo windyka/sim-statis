@@ -1,0 +1,133 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.status-location-error-page {
+    padding-top: 25px;
+}
+
+.status-location-error-icon {
+    margin: auto;
+    display: block;
+}
+
+.status-location-error-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.status-location-error-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 19px;
+}
+
+.status-location-error-box-location {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    padding: 18px 18px 22px;
+    margin-left: -18px;
+    margin-right: -18px;
+}
+
+.status-location-error-box-location .box-location-header {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-location-error-box-location .box-location-header .title-box-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0;
+}
+
+.status-location-error-box-location .box-location-header .change-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #30aee4;
+}
+
+.status-location-error-box-location .box-location-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .status-location-error-box-location .box-location-body .pick-location {
+    float: left;
+} */
+
+.status-location-error-box-location .box-location-body .location-user {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+.status-location-error-on-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 273px;
+    margin: 25px auto auto;
+}
+
+.status-location-error-on-send-your-waste {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    max-width: 293px;
+    margin: 17px auto auto;
+}
+
+.status-location-error-page .btn-send-waste {
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+    /* border-radius: 8px; */
+    display: block;
+    margin: 29px auto auto;
+    /* font-family: "Montserrat", sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    min-width: 227px;
+}
+
+.status-location-error-page .next-time-send-waste {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #30aee4;
+    display: block;
+    margin-top: 25px;
+}

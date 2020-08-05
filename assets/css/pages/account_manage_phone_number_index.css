@@ -1,0 +1,31 @@
+.account-manage-phone-number-index-page {
+    padding: 17px 15px;
+}
+
+.account-manage-phone-number-index-page form .form-group .label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+}
+
+.account-manage-phone-number-index-page form .form-group .form-control {
+    border: 1px solid #cacccf;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 14px 16px;
+    line-height: 20px;
+    color: #000000;
+    min-height: 48px;
+}
+
+.account-manage-phone-number-index-page form .action-form {
+    margin-top: 18px;
+}
+
+.account-manage-phone-number-index-page form .action-form button{
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+}

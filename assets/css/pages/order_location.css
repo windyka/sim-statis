@@ -1,0 +1,531 @@
+.map-detail {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 444px;
+    width: 100%;
+    margin: auto;
+    padding: 13px 15px;
+    min-height: 264px;
+    background-color: #fff;
+}
+
+.map-detail.nonactive {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 444px;
+    width: 100%;
+    margin: auto;
+    padding: 13px 15px;
+    min-height: 170px;
+    background-color: #fff;
+}
+
+.map-detail .header-map-detail .box-search-location {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: start;
+    min-height: 41px;
+    padding: 8px 13px;
+    cursor: text;
+}
+
+.map-detail .header-map-detail .box-search-location span {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #b5b5b5;
+    margin-left: 8px;
+}
+
+.map-detail .header-map-detail .set-live-location {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.map-detail .header-map-detail .set-live-location span {
+    margin-left: 9px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.map-detail .body-map-detail {
+    margin-bottom: 3px;
+    margin-top: 17px;
+}
+
+.map-detail .body-map-detail .title-live-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #b5b5b5;
+}
+
+.map-detail .body-map-detail .detail-live-location {
+    margin-top: 5px;
+}
+
+.map-detail .body-map-detail .detail-live-location .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.map-detail .body-map-detail .detail-live-location .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+    min-height: 32px;
+}
+
+.btn-check-location:disabled {
+    background: #cbcbcb;
+    border: none;
+}
+
+#inactive-gps-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #inactive-gps-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#inactive-gps-modal .modal-dialog {
+    margin: auto;
+}
+#inactive-gps-modal .modal-content .modal-body {
+    padding: 33px 18px 20px;
+}
+
+#inactive-gps-modal .modal-content .modal-body .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+#inactive-gps-modal .modal-content .modal-body .subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+}
+
+#inactive-gps-modal .modal-content .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+#inactive-gps-modal .modal-content .modal-body .footer {
+    margin-top: 23px;
+    display: flex;
+}
+
+#inactive-gps-modal .modal-content .modal-body .footer button:nth-child(1) {
+    margin-right: 5px;
+    background: #ebebeb;
+    color: #595959;
+    border-color: #ebebeb;
+}
+
+#inactive-gps-modal .modal-content .modal-body .footer button:nth-child(2) {
+    margin: 0;
+    margin-left: 5px;
+}
+
+#available-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #available-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#available-modal .modal-dialog {
+    margin: auto;
+}
+
+#available-modal .modal-content .modal-body {
+    padding: 23px 17px 30px;
+}
+
+#available-modal .modal-content .modal-body .icon-header {
+    min-width: 87px;
+    min-height: 87px;
+    max-width: 87px;
+    max-height: 87px;
+    display: block;
+    text-align: center;
+    margin: auto auto 4px;
+}
+
+#available-modal .modal-content .modal-body .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#available-modal .modal-content .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+#available-modal .modal-content .modal-body .location-page {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 26px;
+    padding: 15px 14px 17px 17px;
+}
+
+#available-modal .modal-content .modal-body .location-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#available-modal .modal-content .modal-body .location-page .location {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#available-modal
+    .modal-content
+    .modal-body
+    .location-page
+    .location
+    .icon-location {
+    margin-left: -5px;
+}
+
+#available-modal
+    .modal-content
+    .modal-body
+    .location-page
+    .location
+    .text-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 8px;
+}
+
+#available-modal .modal-content .modal-body .footer .btn-select-package {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+    min-width: 212px;
+}
+
+#available-modal .modal-content .modal-body .footer .change-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    display: block;
+    color: #30aee4;
+    text-decoration: none;
+}
+
+#not-available-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #not-available-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#not-available-modal .modal-dialog {
+    margin: auto;
+}
+
+#not-available-modal .modal-content .modal-body {
+    padding: 17px 16.66px 31px 17.34px;
+}
+
+#not-available-modal .modal-content .modal-body .icon-header {
+    min-width: 87px;
+    min-height: 87px;
+    max-width: 87px;
+    max-height: 87px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#not-available-modal .modal-content .modal-body .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#not-available-modal .modal-content .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 23px;
+}
+
+#not-available-modal .modal-content .modal-body .location-page {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    padding: 15px 14px 17px 17px;
+}
+
+#not-available-modal .modal-content .modal-body .location-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#not-available-modal .modal-content .modal-body .location-page .location {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#not-available-modal
+    .modal-content
+    .modal-body
+    .location-page
+    .location
+    .icon-location {
+    margin-left: -5px;
+}
+
+#not-available-modal
+    .modal-content
+    .modal-body
+    .location-page
+    .location
+    .text-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 8px;
+}
+
+#not-available-modal .modal-content .modal-body .notice-in-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 13px;
+}
+
+#not-available-modal .modal-content .modal-body .notice-using-syw {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 23px;
+}
+
+#not-available-modal .modal-content .modal-body .footer .btn-syw {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+    min-width: 227px;
+}
+
+#not-available-modal .modal-content .modal-body .footer .next-time-syw {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    display: block;
+    color: #30aee4;
+    text-decoration: none;
+}
+
+#welcome-message-order-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #welcome-message-order-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#welcome-message-order-modal .modal-dialog {
+    margin: auto;
+}
+
+#welcome-message-order-modal .modal-content .modal-body {
+    padding: 28px;
+}
+
+#welcome-message-order-modal .modal-content .modal-body .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 21px;
+}
+
+#welcome-message-order-modal .modal-content .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin-bottom: 21.5px;
+}
+
+#welcome-message-order-modal .modal-content .modal-body .footer button {
+    min-width: 160px;
+    background: #29c768;
+    border-color: #29c768;
+}
+
+#welcome-message-order-modal .modal-content .modal-body .footer button:hover {
+    border-color: #29c768;
+}
+
+#message-before-order-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #message-before-order-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#message-before-order-modal .modal-dialog {
+    margin: auto;
+}
+
+#message-before-order-modal .modal-content .modal-body {
+    padding: 28px;
+}
+
+#message-before-order-modal .modal-content .modal-body .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 27px;
+    margin-top: 24px;
+}
+
+#message-before-order-modal .modal-content .modal-body .footer button {
+    min-width: 188px;
+}
+
+#message-before-order-modal .modal-content .modal-body .footer .cancel-order {
+    display: block;
+    margin-top: 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}

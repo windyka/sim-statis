@@ -1,0 +1,148 @@
+.login-page {
+    padding-top: 34px;
+}
+
+.login-header {
+    padding: 5px 0;
+}
+
+.login-body {
+    padding: 80px 0 5px;
+}
+
+.login-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.login-description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.label-login {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-bottom: 0;
+    transition: .3s all;
+}
+
+.form-group.input-error .label-login {
+    color: #ff7575;
+}
+
+.input-login {
+    border: 1px solid #cacccf;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 48px;
+    transition: .3s all;
+}
+
+.form-group.input-error .input-login {
+    border: 1px solid #ff7575;
+}
+
+.form-group .error-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    transition: .3s all;
+}
+
+.form-group.input-error .error-text {
+    color: #ff7575;
+}
+
+.btn-login {
+    margin-top: 36px;
+}
+
+/*support google chrome*/
+.input-login::-webkit-input-placeholder {
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+/*support mozilla*/
+.input-login:-moz-input-placeholder {
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+/*support internet explorer*/
+.input-login:-ms-input-placeholder {
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+.clear-input-login-phone {
+    float: right;
+    padding:9px;
+    margin-top: -43px;
+    cursor: pointer;
+}
+
+.login-footer {
+    margin-top: 26px;
+}
+
+.title-footer-other-login {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.login-footer .text-center img{
+    cursor: pointer;
+}
+
+.answer-register {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.answer-register a {
+    font-weight: bold;
+    color: #30aee4;
+}

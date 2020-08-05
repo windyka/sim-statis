@@ -1,0 +1,463 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.main-app {
+    background-color: #f3f3f3 !important;
+}
+
+/* .app-navbar .main-app {
+    top: 0;
+} */
+
+.account-detail-page .account-overlay {
+    min-height: 113px;
+    max-height: 113px;
+    background: #30aee4;
+    width: 100%;
+}
+
+.account-detail-page .account-header {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    margin: -30px 15px 15px;
+    padding-top: 55px;
+    padding-bottom: 25px;
+    min-height: 126px;
+}
+
+.account-detail-page .account-header .account-image-profile {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    left: 0;
+}
+
+.account-detail-page .account-header .account-image-profile .image-profile {
+    min-height: 90px;
+    min-width: 90px;
+    max-height: 90px;
+    max-width: 90px;
+    display: block;
+    margin: auto;
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.account-detail-page .account-header .account-image-profile .change-image {
+    background: #30aee4;
+    border-radius: 50%;
+    padding: 7px;
+    max-width: 31px;
+    max-height: 31px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    left: 30px;
+    cursor: pointer;
+}
+
+.account-detail-page .account-header .account-header-detail .account-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.account-detail-page .account-header .account-header-detail .account-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.account-detail-page .account-detail {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    margin: 0 15px 15px;
+    padding: 17px;
+}
+
+.account-detail-page .account-detail .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.account-detail-page .account-detail .header .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.account-detail-page .account-detail .header .change-account {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #30aee4;
+}
+
+.account-detail-page .account-detail .body .account-detail-body {
+    margin-bottom: 19px;
+}
+
+.account-detail-page .account-detail .body .account-detail-body .title {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.account-detail-page .account-detail .body .account-detail-body .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.account-detail-page .account-address {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    margin: 0 15px 15px;
+}
+
+.account-detail-page .account-address .header-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    padding: 17px 17px 2px 17px;
+}
+
+.account-detail-page .account-address .body .address-list .address {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 17px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.account-detail-page .account-address .body .address-list .address.last-child {
+    border: none;
+}
+
+.account-detail-page
+    .account-address
+    .body
+    .address-list
+    .address
+    .address-detail {
+    max-width: 206px;
+}
+
+.account-detail-page
+    .account-address
+    .body
+    .address-list
+    .address
+    .address-detail
+    .name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.account-detail-page
+    .account-address
+    .body
+    .address-list
+    .address
+    .address-detail
+    .my-address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.account-detail-page
+    .account-address
+    .body
+    .address-list
+    .address.primary
+    .address-detail
+    .primary-address {
+    margin-top: 12px;
+    background: #29c768;
+    border-radius: 50px;
+    padding: 4px;
+    min-width: 56px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
+
+.account-detail-page
+    .account-address
+    .body
+    .address-list
+    .address
+    .change-address {
+    cursor: pointer;
+}
+
+.account-detail-page .crop-image-page {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    max-width: 444px;
+    padding: 0 28px;
+}
+
+.account-detail-page .crop-image-page .img-container {
+    max-width: 388px;
+    max-height: 388px;
+    display: block;
+    margin: 40px auto;
+}
+
+.account-detail-page .crop-image-page .img-container img {
+    max-width: 388px;
+    display: block;
+    /* margin: 40px auto; */
+    width: 100%;
+}
+
+.account-detail-page .crop-image-page .action-image-preview {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.account-detail-page
+    .crop-image-page
+    .action-image-preview
+    #btn-cancel-save-image-profile {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.account-detail-page .crop-image-page .action-image-preview #btn-rotate-image {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.account-detail-page
+    .crop-image-page
+    .action-image-preview
+    #btn-save-image-profile {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    box-shadow: none;
+}
+
+.account-detail-page .option-address-modal {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    max-width: 444px;
+}
+
+.account-detail-page .option-address-modal .option-address-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.account-detail-page .option-address-modal .option-address-content {
+    width: 100%;
+    background: #fff;
+    bottom: -210px;
+    position: absolute;
+    display: block;
+    transition: 0.3s all;
+}
+
+.account-detail-page .option-address-modal.open .option-address-content {
+    bottom: 0;
+}
+
+.account-detail-page
+    .option-address-modal
+    .option-address-content
+    .list-option-address
+    .option-address {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    padding: 25px 18px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.account-detail-page
+    .option-address-modal
+    .option-address-content
+    .list-option-address
+    .option-address:hover {
+    background: #00000017;
+}
+
+.account-detail-page
+    .option-address-modal
+    .option-address-content
+    .action-page {
+    padding: 15px;
+}
+
+.account-detail-page
+    .option-address-modal
+    .option-address-content
+    .action-page
+    .btn-cancel-option-address {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.account-detail-page .update-address-name-modal {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    max-width: 444px;
+}
+
+.account-detail-page .update-address-name-modal .update-address-name-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.account-detail-page .update-address-name-modal .update-address-name-content {
+    width: 100%;
+    background: #fff;
+    bottom: -181px;
+    position: absolute;
+    display: block;
+    transition: 0.3s all;
+    padding: 15px;
+}
+
+.account-detail-page
+    .update-address-name-modal.open
+    .update-address-name-content {
+    bottom: 0;
+}
+
+.account-detail-page
+    .update-address-name-modal
+    .update-address-name-content
+    form
+    .action-page {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.account-detail-page
+    .update-address-name-modal
+    .update-address-name-content
+    form
+    .form-group
+    label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+}
+
+.account-detail-page
+    .update-address-name-modal
+    .update-address-name-content
+    form
+    .form-group
+    input {
+    border: 1px solid #cacccf;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 14px 16px;
+    line-height: 20px;
+    color: #25282b;
+    min-height: 47px;
+}
+
+.account-detail-page
+    .update-address-name-modal
+    .update-address-name-content
+    form
+    .action-page
+    .btn-cancel-update-address-name {
+    margin: 0;
+    margin-right: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+}
+
+.account-detail-page
+    .update-address-name-modal
+    .update-address-name-content
+    form
+    .action-page
+    .btn-update-address-name {
+    margin: 0;
+    margin-left: 5px;
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+}

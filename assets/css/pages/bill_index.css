@@ -1,0 +1,268 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.app-bottom-navigation .main-app {
+    min-height: calc(100vh - 129px);
+    margin-bottom: 17px;
+}
+
+.main-app {
+    padding-bottom: 56px;
+}
+
+.bill-index-page {
+    padding: 17px 15px 0px;
+}
+
+.bill-index-page .bill-list .bill {
+    background: #ffffff;
+    border-radius: 7px;
+    padding: 18px;
+    margin-bottom: 17px;
+}
+
+.bill-index-page .bill-list .bill .bill-notification-alert {
+    background: rgba(246, 166, 9, 0.22);
+    /* border: 1px solid #f6a609; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 14px 19px;
+    margin-bottom: 18px;
+}
+
+.bill-index-page .bill-list .bill .bill-notification-alert .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #bc8210;
+}
+
+.bill-index-page .bill-list .bill .bill-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bill-index-page .bill-list .bill .bill-header .invoice-number .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.bill-index-page .bill-list .bill .bill-header .invoice-number .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-index-page .bill-list .bill .bill-header .payment-status {
+    background: #b1b1b1;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 94px; */
+    min-height: 20px;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.bill-index-page .bill-list .bill .bill-header .payment-status.grey {
+    background: #b1b1b1;
+}
+
+.bill-index-page .bill-list .bill .bill-header .payment-status.yellow {
+    background: #f6a609;
+}
+
+.bill-index-page .bill-list .bill .bill-header .payment-status.green {
+    background: #29c768;
+}
+
+.bill-index-page .bill-list .bill .bill-body {
+    margin-top: 23px;
+    margin-bottom: 29px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .bill-to {
+    margin-bottom: 12.5px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .bill-to .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 11px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .bill-to .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #30aee4;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .bill-to .package-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .bill-to .location-order {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-index-page .bill-list .bill .bill-body .payment-limit {
+    margin-top: 12.5px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .payment-limit .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 11px;
+}
+
+.bill-index-page .bill-list .bill .bill-body .payment-limit .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.bill-index-page .bill-list .bill .bill-body .payment-limit .content span.date {
+    margin-right: 14px;
+}
+
+.bill-index-page .bill-list .bill .bill-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bill-index-page
+    .bill-list
+    .bill
+    .bill-footer
+    .total-amount-of-the-bill
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.bill-index-page
+    .bill-list
+    .bill
+    .bill-footer
+    .total-amount-of-the-bill
+    .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bill-index-page
+    .bill-list
+    .bill
+    .bill-footer
+    .total-amount-of-the-bill
+    .content
+    .text-rp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 3px;
+}
+
+.bill-index-page
+    .bill-list
+    .bill
+    .bill-footer
+    .total-amount-of-the-bill
+    .content
+    .text-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.bill-index-page .bill-list .bill .bill-footer .bill-detail button {
+    min-width: 92px;
+}
+
+.bill-index-page .bill-loading {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bill-index-page .bill-loading .lds-spinner {
+    display: block;
+    margin: auto;
+}
+
+.bill-index-page .bill-nothing {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bill-index-page .bill-nothing .bill-nothing-page {
+    display: block;
+    margin: auto;
+}
+
+.bill-index-page .bill-nothing .bill-nothing-page img {
+    display: block;
+    margin: auto;
+}
+
+.bill-index-page .bill-nothing .bill-nothing-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 32px;
+}

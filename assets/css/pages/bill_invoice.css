@@ -1,0 +1,22 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.bill-invoice-page {
+    padding: 17px 15px 0px;
+}
+
+.bill-invoice-page .invoice-action{
+    margin: 250px auto;
+    display: flex;
+}
+
+.bill-invoice-page .invoice-action button:nth-child(1){
+    margin: 0;
+    margin-right: 5px;
+}
+
+.bill-invoice-page .invoice-action button:nth-child(2){
+    margin: 0;
+    margin-left: 5px;
+}

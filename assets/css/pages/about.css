@@ -1,0 +1,98 @@
+.app {
+    background-color: #f1f1f1 !important;
+}
+
+.main-app {
+    background-color: #f1f1f1 !important;
+}
+
+.about-page .about-overlay {
+    min-height: 113px;
+    max-height: 113px;
+    background: #30aee4;
+    width: 100%;
+}
+
+.about-page .about-card {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: -95px 15px 33px;
+    padding: 21px 24px 29px;
+}
+
+.about-page .about-card .about-content {
+    margin: 43px 0 24px;
+}
+
+.about-page .about-card .about-content .sub-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 9px;
+}
+
+.about-page .about-card .about-content .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 18.45px;
+}
+
+.about-page .about-card .about-content .title::after {
+    content: " ";
+    border-radius: 50px;
+    height: 4px;
+    width: 33.25px;
+    background-color: #30aee4;
+    display: block;
+    margin-top: 18.45px;
+    margin-bottom: 20px;
+}
+
+.about-page .about-card .about-content .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.about-page .about-card .about-footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.about-page .about-card .about-footer span {
+    color: #30aee4;
+}
+
+.about-page .footer .office-address{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    margin:auto;
+    margin-bottom:20px;
+    max-width:323px;
+    display:block;
+}
+
+.about-page .footer .office-social{
+    margin-bottom:24px;
+    display:block;
+    text-align:center;
+}
+
+.about-page .footer .office-social a{
+    text-decoration:none;
+}

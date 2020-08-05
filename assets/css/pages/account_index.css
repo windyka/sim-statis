@@ -1,0 +1,336 @@
+.app-navbar .main-app {
+    top: 0;
+}
+
+.app-bottom-navigation .main-app {
+    min-height: calc(100vh - 73px);
+    margin-bottom: 0;
+}
+
+.main-app {
+    padding-bottom: 73px;
+}
+
+.navbar.navbar-account {
+    background: #fff;
+    min-height: 56px;
+}
+
+.navbar.navbar-account .container .navbar-title {
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.account-page {
+    padding: 10px 0px 0;
+}
+
+.account-page .account-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.account-page .account-header img {
+    min-width: 57px;
+    min-height: 57px;
+    max-width: 57px;
+    max-height: 57px;
+    border-radius:50px;
+}
+
+.account-page .account-header .account-header-detail {
+    margin-left: 13px;
+}
+
+.account-page .account-header .account-header-detail .account-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.account-page .account-header .account-header-detail .account-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.account-page .menu-page {
+    margin-top: 23.5px;
+}
+
+.account-page .menu-page .menu-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.account-page .menu-page .menu-list .menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s all;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.account-page .menu-page .menu-list .menu:hover {
+    background: #0000000f;
+}
+
+.account-page .menu-page .menu-list .menu .main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.account-page .menu-page .menu-list .menu svg {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.account-page .menu-page .menu-list .menu .menu-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 12px;
+}
+
+.account-page .setting-page {
+    margin-top: 30px;
+}
+
+.account-page .menu-page .menu-list .menu.with-counter {
+    padding-top:11.5px;
+    padding-bottom:11.5px;
+    justify-content: space-between;
+}
+
+.account-page .menu-page .menu-list .menu.with-counter .main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.account-page .menu-page .menu-list .menu .count-notif {
+    background: #ffcf01;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    min-width: 27px;
+    min-height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.account-page .setting-page .setting-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom:10px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.account-page .setting-page .setting-list .setting {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    padding-left: 23px;
+    padding-right: 23px;
+    transition: .3s all;
+}
+
+.account-page .setting-page .setting-list .setting:hover {
+    background: #0000000f;
+}
+
+.account-page .setting-page .setting-list .setting svg {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.account-page .setting-page .setting-list .setting .setting-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 12px;
+}
+
+.account-page .setting-page .setting-list .setting.text-danger svg path {
+    fill: #ff4f4f;
+}
+
+.account-page .setting-page .setting-list .setting.text-danger .setting-text {
+    color: #ff4f4f;
+}
+
+.account-page .logout-modal {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    max-width: 444px;
+}
+
+.account-page .logout-modal .logout-content {
+    width: 100%;
+    background: #fff;
+    bottom: -265px;
+    position: absolute;
+    display: block;
+    padding: 26px 15px 20px;
+    transition: .3s all;
+}
+
+.account-page .logout-modal .logout-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.account-page .logout-modal.open .logout-content {
+    bottom: 0;
+}
+
+.account-page .logout-modal .logout-content img {
+    display: block;
+    margin: auto;
+}
+
+.account-page .logout-modal .logout-content .text-logout {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(37, 40, 43, 0.75);
+}
+
+.account-page .logout-modal .logout-content .action-page {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.account-page .logout-modal .logout-content .action-page .btn-cancel-logout {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    border: none;
+    margin-right: 5px;
+    min-height:42px;
+}
+
+.account-page .logout-modal .logout-content .action-page .btn-logout {
+    background: #ff4f4f;
+    box-shadow: 3px 4px 10px rgba(255, 79, 79, 0.25);
+    border-radius: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+    margin-top:0px;
+    min-height:42px;
+}
+
+#success-save-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 330px) {
+    #success-save-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#success-save-modal .modal-dialog {
+    margin: auto;
+}
+
+#success-save-modal .modal-content .modal-body {
+    padding: 28px;
+}
+
+#success-save-modal .modal-content .modal-body .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 21px;
+}
+
+#success-save-modal .modal-content .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin-bottom: 21.5px;
+}
+
+#success-save-modal .modal-content .modal-body .footer button {
+    min-width: 160px;
+    background: #29c768;
+    border-color: #29c768;
+}
+
+#success-save-modal .modal-content .modal-body .footer button:hover {
+    border-color: #29c768;
+}

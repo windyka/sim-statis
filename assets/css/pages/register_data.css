@@ -1,0 +1,136 @@
+.register-page {
+    padding-top: 34px;
+}
+
+.register-header {
+    padding: 5px 0;
+}
+
+.register-body {
+    padding: 133px 0 5px;
+}
+
+.register-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.register-description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.form-group {
+    margin-bottom: 11px;
+}
+
+.label-register {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.form-group.input-error .label-register {
+    color: #ff7575;
+}
+
+.input-register {
+    border: 1px solid #cacccf;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 16px;
+    line-height: 20px;
+    min-height: 48px;
+    transition: .3s all;
+}
+
+.form-group.input-error .input-register {
+    border: 1px solid #ff7575;
+}
+
+.clear-input-register-data {
+    float: right;
+    padding:9px;
+    margin-top: -43px;
+    cursor: pointer;
+}
+
+.form-group .error-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #000000;
+    transition: .3s all;
+}
+
+.form-group.input-error .error-text {
+    color: #ff7575;
+}
+
+.btn-register {
+    margin-top: 36px;
+}
+
+/*support google chrome*/
+.input-register::-webkit-input-placeholder {
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+/*support mozilla*/
+.input-register:-moz-input-placeholder {
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+/*support internet explorer*/
+.input-register:-ms-input-placeholder {
+    color: #c6c6c6;
+    font-size: 16px;
+}
+
+.register-footer {
+    margin-top: 25px;
+}
+
+.answer-login {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.answer-login a {
+    font-weight: bold;
+    color: #30aee4;
+}

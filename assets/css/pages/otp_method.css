@@ -1,0 +1,26 @@
+.otp-method-page {
+    padding-top: 34px;
+}
+
+.otp-method-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 29px;
+}
+
+.btn-icon-otp-method svg{
+    width: 24px;
+    height: 24px;
+}
+
+.btn-icon-otp-method svg path{
+    fill: #30AEE4;
+}
+
+.btn-icon-otp-method:hover svg path{
+    fill: #fff;
+}

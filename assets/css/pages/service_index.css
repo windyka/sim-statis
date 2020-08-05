@@ -1,0 +1,487 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.navbar .container .icon-right {
+    display:flex;
+    align-items: center;
+}
+
+.navbar .container .icon-right #history-icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar .container .icon-right #history-icon img{
+    min-width:29px;
+    min-height:29px;
+    max-width:29px;
+    max-height:29px;
+}
+
+.app-bottom-navigation .main-app {
+    min-height: calc(100vh - 129px);
+    margin-bottom: 17px;
+}
+
+.main-app {
+    padding-bottom:73px;
+}
+
+.service-index-page {
+    padding: 17px 15px 0px;
+}
+
+.service-index-page .notification-alert {
+    background: rgba(246, 166, 9, 0.22);
+    /* border: 1px solid #f6a609; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-bottom: 16px;
+}
+
+.service-index-page .notification-alert .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #bc8210;
+}
+
+.service-index-page .notification-alert svg {
+    cursor: pointer;
+}
+
+.service-index-page .service-page {
+    margin-bottom: 25px;
+}
+
+.service-index-page .service-page .service-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.service-index-page .service-page .nothing-subscribe {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 26px 15px 22px;
+    min-height: 217px;
+}
+
+.service-index-page .service-page .nothing-subscribe .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-bottom: 28px;
+}
+
+.service-index-page .service-page .nothing-subscribe .content .text-content {
+    margin-left: 21px;
+}
+
+.service-index-page
+    .service-page
+    .nothing-subscribe
+    .content
+    .text-content
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.service-index-page
+    .service-page
+    .nothing-subscribe
+    .content
+    .text-content
+    .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-index-page .service-page .nothing-subscribe .btn-subscribe {
+    /* min-height: 48px; */
+    box-shadow: 3px 4px 10px rgba(48, 174, 228, 0.25);
+    padding: 15px;
+}
+
+.service-index-page .service-page .service-menu {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+/* .service-index-page .service-page .service-menu .all-service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px 12px 17px;
+} */
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history {
+    padding: 21px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .header
+    .service-id {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .header
+    .service-status {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 76px; */
+    /* min-height: 20px; */
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .header
+    .service-status.green {
+    background: #29c768;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .service-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .service-user-location {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 13px;
+}
+
+.service-index-page
+    .service-page
+    .service-menu
+    .list-service-history
+    .service-history
+    .service-period {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.service-index-page .service-page .service-menu .all-service .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-index-page .service-page .service-menu .all-service .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #30aee4;
+}
+
+.service-index-page .service-page .service-menu hr {
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    margin: 0;
+}
+
+.service-index-page .service-page .service-menu .new-service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px 12px 17px;
+    cursor: pointer;
+}
+
+.service-index-page .service-page .service-menu .new-service .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #67cd7e;
+}
+
+.service-index-page .transportation-page .transportation-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.service-index-page .transportation-page .nothing-transport {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 30px 15px 42px;
+    min-height: 180px;
+}
+
+.service-index-page
+    .transportation-page
+    .nothing-transport
+    .img-nothing-transport {
+    margin: auto;
+    margin-bottom: 11px;
+    display: block;
+}
+
+.service-index-page .transportation-page .nothing-transport .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.service-index-page .transportation-page .transportation-menu {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .all-transportation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px 12px 17px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .all-transportation
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .all-transportation
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #30aee4;
+}
+
+.service-index-page .transportation-page .transportation-menu hr {
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    margin: 0;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history {
+    padding: 14px 17px 11px 19px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .header
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .header
+    .see-all
+    a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #30aade;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .list-transportation-history
+    .history {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .list-transportation-history
+    .user-detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .list-transportation-history
+    .user-detail
+    .profile-user {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .list-transportation-history
+    .user-detail
+    .profile-user
+    .user-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 13px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .list-transportation-history
+    .user-detail
+    .user-address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    max-width: 197px;
+    margin-top: 11px;
+}
+
+.service-index-page
+    .transportation-page
+    .transportation-menu
+    .transportation-history
+    .list-transportation-history
+    .transportation-time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}

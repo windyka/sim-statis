@@ -1,0 +1,47 @@
+.account-manage-phone-number-change-page {
+    padding: 17px 15px;
+}
+
+.account-manage-phone-number-change-page .notification-alert {
+    background: rgba(48, 174, 228, 0.2);
+    border-radius: 7px;
+    padding: 14px 19px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.account-manage-phone-number-change-page .notification-alert .title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #30AEE4;
+}
+
+.account-manage-phone-number-change-page form .form-group .label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+}
+
+.account-manage-phone-number-change-page form .form-group .form-control {
+    border: 1px solid #cacccf;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 14px 16px;
+    line-height: 20px;
+    color: #000000;
+    min-height: 48px;
+}
+
+.account-manage-phone-number-change-page form .action-form {
+    margin-top: 18px;
+}
+
+.account-manage-phone-number-change-page form .action-form button {
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+}

@@ -1,0 +1,349 @@
+.app {
+    background-color: #f8f8f8 !important;
+}
+
+.home-page {
+    padding: 34px 0 0px;
+}
+
+.home-page .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.home-page .header .welcome-header .name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.home-page .header .welcome-header .name span {
+    font-weight: bold;
+}
+
+.home-page .header .welcome-header .ask {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.home-page .header .notification {
+    cursor: pointer;
+}
+
+.home-page .news {
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.home-page .news .news-list .swiper-container {
+    overflow: initial;
+}
+
+.home-page .news .news-list .swiper-container .swiper-wrapper .swiper-slide {
+    background: #30aee4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 290px;
+    cursor: default;
+}
+
+.home-page
+    .news
+    .news-list
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-detail {
+    margin-left: 24px;
+}
+
+.home-page
+    .news
+    .news-list
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-detail
+    .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+
+.home-page
+    .news
+    .news-list
+    .swiper-container
+    .swiper-wrapper
+    .swiper-slide
+    .swiper-detail
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.home-page .notification-alert {
+    margin-left: 15px;
+    margin-right: 15px;
+    background: rgba(246, 166, 9, 0.22);
+    /* border: 1px solid #f6a609; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.home-page .notification-alert .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #bc8210;
+}
+
+.home-page .notification-alert svg {
+    cursor: pointer;
+}
+
+.home-page .account-statistic {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 19px;
+}
+
+.home-page .account-statistic .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.home-page .account-statistic .nothing-subscribe {
+    margin-bottom: 16px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 26px 15px 22px;
+}
+
+.home-page .account-statistic .nothing-subscribe .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-bottom: 28px;
+}
+
+.home-page .account-statistic .nothing-subscribe .content .text-content {
+    margin-left: 21px;
+}
+
+.home-page .account-statistic .nothing-subscribe .content .text-content .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.home-page
+    .account-statistic
+    .nothing-subscribe
+    .content
+    .text-content
+    .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.home-page .account-statistic .nothing-subscribe .btn-subscribe {
+    /* min-height: 48px; */
+    box-shadow: 3px 4px 10px rgba(48, 174, 228, 0.25);
+    padding: 15px;
+}
+
+.home-page .account-statistic .dashboard-statistic {
+    display: flex;
+}
+
+.home-page .account-statistic .dashboard-statistic .box-statistic {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: 100%;
+    padding: 18px;
+    min-height: 126px;
+    cursor: pointer;
+}
+
+.home-page .account-statistic .dashboard-statistic .box-statistic.service {
+    margin-right: 5px;
+}
+
+.home-page .account-statistic .dashboard-statistic .box-statistic.invoice {
+    margin-left: 5px;
+}
+
+.home-page .account-statistic .dashboard-statistic .box-statistic .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.home-page .account-statistic .dashboard-statistic .box-statistic .content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.home-page .account-statistic .dashboard-statistic .box-statistic .content svg {
+    margin-bottom: 9px;
+}
+
+.home-page
+    .account-statistic
+    .dashboard-statistic
+    .box-statistic
+    .content
+    .count {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: right;
+    color: #30aee4;
+}
+
+.home-page .account-statistic .new-service-request {
+    margin-top: 16px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 7px 10px 7px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.home-page .account-statistic .new-service-request .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.home-page .account-statistic .help {
+    margin-top: 16px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    padding: 7px 10px 7px 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.home-page .account-statistic .help .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+#welcome-message-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #welcome-message-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#welcome-message-modal .modal-dialog {
+    margin: auto;
+}
+
+.welcome-modal .modal-body {
+    padding: 28px;
+}
+
+.welcome-modal .modal-body .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 21px;
+}
+
+.welcome-modal .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin-bottom: 21.5px;
+}
+
+.welcome-modal .modal-body .footer button {
+    min-width: 160px;
+    background: #29c768;
+    border-color: #29c768;
+}
+
+.welcome-modal .modal-body .footer button:hover {
+    border-color: #29c768;
+}
+
+.home-page .home-loading {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.home-page .home-loading .lds-spinner {
+    display: block;
+    margin: auto;
+}

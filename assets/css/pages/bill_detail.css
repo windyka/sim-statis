@@ -1,0 +1,535 @@
+.app {
+    background-color: #ffffff !important;
+}
+
+.main-app {
+    background-color: #ffffff !important;
+}
+
+.bill-detail-page {
+    padding: 17px 0px 0px;
+}
+
+.bill-detail-page .notification-alert {
+    background: rgba(246, 166, 9, 0.22);
+    /* border: 1px solid #f6a609; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 14px 20px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bill-detail-page .notification-alert .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #bc8210;
+}
+
+.bill-detail-page .invoice-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 18px;
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.bill-detail-page .invoice-detail .invoice-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bill-detail-page .invoice-detail .invoice-header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.bill-detail-page .invoice-detail .invoice-header .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .invoice-detail .invoice-header .payment-status {
+    background: #b1b1b1;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 94px; */
+    min-height: 20px;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.bill-detail-page .invoice-detail .invoice-header .payment-status.red {
+    background: #FF7575;
+}
+
+.bill-detail-page .invoice-detail .invoice-header .payment-status.green {
+    background: #29C768;
+}
+
+.bill-detail-page .invoice-detail .invoice-body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+
+.bill-detail-page .invoice-detail .invoice-body .invoice-date {
+    margin-right: 40px;
+}
+
+.bill-detail-page .invoice-detail .invoice-body .invoice-date .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 14px;
+}
+
+.bill-detail-page .invoice-detail .invoice-body .invoice-date .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.bill-detail-page .invoice-detail .invoice-body .payment-limit .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 14px;
+}
+
+.bill-detail-page .invoice-detail .invoice-body .payment-limit .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.bill-detail-page
+    .invoice-detail
+    .invoice-body
+    .payment-limit
+    .content
+    span.date {
+    margin-right: 14px;
+}
+
+.bill-detail-page .invoice-detail .invoice-footer {
+    margin-top: 30px;
+}
+
+.bill-detail-page .invoice-detail .invoice-footer a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #30aee4;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.bill-detail-page .invoice-detail .invoice-footer a svg {
+    margin-right: 7px;
+}
+
+.bill-detail-page .service-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 18px;
+    /* margin-top: 12px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.bill-detail-page .service-detail .service-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .service-detail .service-page .service-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #30aee4;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.bill-detail-page .service-detail .service-page .service-limit {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.bill-detail-page .service-detail .price-page {
+    margin-top: 21px;
+}
+
+.bill-detail-page .service-detail .price-page .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.bill-detail-page .service-detail .price-page .price .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .service-detail .price-page .price .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .service-detail .price-page .service-fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.bill-detail-page .service-detail .price-page .service-fee .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .service-detail .price-page .service-fee .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .service-detail .price-page hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.bill-detail-page .service-detail .price-page .total-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bill-detail-page .service-detail .price-page .total-amount .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.bill-detail-page .service-detail .price-page .total-amount .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.bill-detail-page .service-detail .simple-price-page {
+    margin-top: 29px;
+}
+
+.bill-detail-page .service-detail .simple-price-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .service-detail .simple-price-page .content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 7px;
+}
+
+.bill-detail-page .service-detail .simple-price-page .content .text-rp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 3px;
+}
+
+.bill-detail-page .service-detail .simple-price-page .content .text-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 18px;
+    /* margin-top: 12px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.bill-detail-page .payment-detail .payment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bill-detail-page .payment-detail .payment-header .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .payment-header .payment-status {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 94px; */
+    min-height: 20px;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.bill-detail-page .payment-detail .payment-header .payment-status.yellow {
+    background: #f6a609;
+}
+
+.bill-detail-page .payment-detail .payment-header .payment-status.green {
+    background: #29C768;
+}
+
+.bill-detail-page .payment-detail .payment-details {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bill-detail-page .payment-detail .payment-details .payment-id .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.bill-detail-page .payment-detail .payment-details .payment-id .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .payment-details .payment-date .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.bill-detail-page .payment-detail .payment-details .payment-date .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: right;
+}
+
+.bill-detail-page .payment-detail .payment-method {
+    margin-top: 20px;
+}
+
+.bill-detail-page .payment-detail .payment-method .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .payment-detail .payment-method .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .price-page {
+    margin-top: 21px;
+}
+
+.bill-detail-page .payment-detail .price-page .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.bill-detail-page .payment-detail .price-page .price .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .payment-detail .price-page .price .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .price-page .service-fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.bill-detail-page .payment-detail .price-page .service-fee .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.bill-detail-page .payment-detail .price-page .service-fee .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .price-page hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.bill-detail-page .payment-detail .price-page .total-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bill-detail-page .payment-detail .price-page .total-amount .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .price-page .total-amount .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.bill-detail-page .payment-detail .invoice-footer {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.bill-detail-page .payment-detail .invoice-footer a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #30aee4;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.bill-detail-page .footer {
+    margin-top: 15px;
+    padding: 0 15px;
+}
+
+.bill-detail-page .footer.footer-bottom {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    /* bottom: 71px; */
+    left:0;
+    right:0;
+}
+
+.bill-detail-page .footer .inpay {
+    display: flex;
+}
+
+.bill-detail-page .footer .inpay button:nth-child(1) {
+    margin-right: 5px;
+}
+
+.bill-detail-page .footer .inpay button:nth-child(2) {
+    margin: 0;
+    margin-left: 5px;
+}

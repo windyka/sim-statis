@@ -1,0 +1,788 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.main-app {
+    padding-bottom: 0;
+    background-color: #f3f3f3 !important;
+}
+
+.order-payment-completion-page {
+    padding: 17px 15px 15px;
+}
+
+.wizard {
+    margin-top: 10px;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.connecting-line {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    /* width: 67.5%; */
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+    top: 15px;
+    z-index: 1;
+}
+
+.connecting-line.active {
+    background: #30aee4;
+}
+
+.connecting-line:nth-child(1) {
+    width: 33.75%;
+    left: 0;
+    right: 33.75%;
+}
+
+.connecting-line:nth-child(2) {
+    width: 33.75%;
+    left: 33.75%;
+    right: 0;
+}
+
+.wizard .nav-tabs > li.active > a,
+.wizard .nav-tabs > li.active > a:hover,
+.wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard .nav-tabs > li.done > a,
+.wizard .nav-tabs > li.done > a:hover,
+.wizard .nav-tabs > li.done > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgb(229, 229, 229);
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-style: normal;
+}
+
+span.round-tab.start {
+    left: -23px;
+}
+
+span.round-tab.end {
+    left: 15px;
+}
+
+.done span.round-tab {
+    line-height: 28px;
+}
+
+span.round-tab i {
+    color: #555555;
+}
+
+.wizard li.active span.round-tab {
+    background: #30aee4;
+    color: #fff;
+}
+
+.wizard li.active span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs > li.active > a i {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.wizard li.done span.round-tab {
+    background: rgb(141, 204, 231);
+    border: 1px solid #30aee4;
+    color: #fff;
+}
+
+.wizard li.done span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs > li.done > a i {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.wizard .nav-tabs > li {
+    width: 31%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+
+.wizard .nav-tabs > li a i {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 37px;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    left: 50%;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.wizard .nav-tabs > li a i.start {
+    transform: translate(-65%, 0);
+}
+
+.wizard .nav-tabs > li a i.middle {
+    transform: translate(-20%, 0);
+}
+
+.wizard .nav-tabs > li a i.end {
+    transform: translate(47%, 0);
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 20px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    /* .wizard .nav-tabs>li a i {
+        display: none;
+    } */
+}
+
+.order-payment-completion-page .payment-completion {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    margin-top: 78px;
+}
+
+.order-payment-completion-page .payment-completion .header {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 20px 16px 8px;
+}
+
+.order-payment-completion-page .payment-completion .header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
+
+.order-payment-completion-page .payment-completion .header .main-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 9px;
+}
+
+.order-payment-completion-page .payment-completion .body {
+    padding: 8px 16px 0px;
+}
+
+.order-payment-completion-page .payment-completion .body .countdown {
+    background: rgba(48, 174, 228, 0.1);
+    border: 1px solid #30aee4;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+.order-payment-completion-page .payment-completion .body .countdown .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.order-payment-completion-page .payment-completion .body .countdown .time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.order-payment-completion-page .payment-completion .body .order-service {
+    margin-top: 23px;
+}
+
+.order-payment-completion-page .payment-completion .body .order-service .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .order-service
+    .content
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .order-service
+    .content
+    .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order-payment-completion-page .payment-completion .body .payment-to {
+    margin-top: 24px;
+}
+
+.order-payment-completion-page .payment-completion .body .payment-to .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 11px;
+}
+
+.order-payment-completion-page .payment-completion .body .payment-to .content {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 14px 9px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-destination
+    .name {
+    margin: auto auto auto 10px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-destination
+    .name
+    .main-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-destination
+    .name
+    .secondary-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #8e8e8e;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-number {
+    padding: 9px 14px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-number
+    .rekening {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-number
+    .action-copy {
+    cursor: pointer;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-to
+    .content
+    .rekening-number
+    .action-copy
+    span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #30aee4;
+}
+
+.order-payment-completion-page .payment-completion .body .payment-detail {
+    margin-top: 19px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 12px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .all-price {
+    padding: 13px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .all-price
+    .price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .all-price
+    .price
+    .text-rp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 4px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .all-price
+    .price
+    .text-price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .all-price
+    .action-copy {
+    cursor: pointer;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .all-price
+    .action-copy
+    span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: #30aee4;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .alert-payment {
+    padding: 14px 14px 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .alert-payment
+    .text-alert {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .alert-payment
+    svg {
+    min-width: 17px;
+    min-height: 17px;
+    max-width: 17px;
+    max-height: 17px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-detail
+    .content
+    .alert-payment
+    .text-alert
+    b {
+    color: #000000;
+}
+
+.order-payment-completion-page .payment-completion .body .payment-guide {
+    margin-top: 24px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-guide
+    .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-guide
+    .header
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-guide
+    .guide-list-padding-bottom {
+    padding-bottom: 19px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-guide
+    .guide-list {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid #b9b9b9;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 11px 16px 1.26px;
+}
+
+.order-payment-completion-page
+    .payment-completion
+    .body
+    .payment-guide
+    .guide-list
+    .guide {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #b9b9b9;
+    padding-bottom: 15px;
+}
+
+.order-payment-completion-page .footer {
+    margin-top: 30px;
+}
+
+.order-payment-completion-page .footer .notice-payment {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #808080;
+    max-width: 276px;
+    margin: auto;
+}
+
+.order-payment-completion-page .footer button {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+    margin-bottom: 27px;
+}
+
+.order-payment-completion-page .footer .cancel-order {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #ff7575;
+    display: block;
+    margin-bottom: 38px;
+}
+
+#cancel-order-modal {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    max-width: 444px;
+}
+
+#cancel-order-modal .cancel-order-content {
+    width: 100%;
+    background: #fff;
+    bottom: -265px;
+    position: absolute;
+    display: block;
+    padding: 26px 15px 20px;
+    transition: 0.3s all;
+}
+
+#cancel-order-modal .cancel-order-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+#cancel-order-modal.open .cancel-order-content {
+    bottom: 0;
+}
+
+#cancel-order-modal .cancel-order-content img {
+    display: block;
+    margin: auto;
+}
+
+#cancel-order-modal .cancel-order-content .text-cancel-order {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(37, 40, 43, 0.75);
+}
+
+#cancel-order-modal .cancel-order-content .action-page {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#cancel-order-modal .cancel-order-content .action-page .btn-cancel-order {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    border: none;
+    margin-right: 5px;
+    min-height: 42px;
+}
+
+#cancel-order-modal .cancel-order-content .action-page .btn-cancel {
+    background: #ff4f4f;
+    box-shadow: 3px 4px 10px rgba(255, 79, 79, 0.25);
+    border-radius: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+    min-height: 42px;
+}

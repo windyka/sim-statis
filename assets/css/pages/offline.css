@@ -1,0 +1,36 @@
+.offline-page {
+    display: block;
+    padding: 144px 0 0;
+}
+
+.offline-page .offline-img {
+    margin-bottom: 35px;
+}
+
+.offline-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.offline-page .detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 37px;
+}
+
+.offline-page .btn-back {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #30aee4;
+    display: block;
+    text-decoration: none;
+}

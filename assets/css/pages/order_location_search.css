@@ -1,0 +1,194 @@
+.app.search-location .main-app {
+    padding-bottom: 0;
+}
+
+/* .location-search-page {
+} */
+
+.app.search-location .navbar.navbar-search {
+    background-color: #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.app.search-location .navbar.navbar-search .container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.app.search-location .navbar.navbar-search .container .nav-link-back {
+    display: inline-block;
+}
+
+.app.search-location .navbar.navbar-search .container .nav-link-back svg path {
+    fill: #30aee4;
+}
+
+.app.search-location .navbar.navbar-search .container .search-box {
+    display: flex;
+    max-width: 395px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app.search-location .navbar.navbar-search .container .search-box input {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.app.search-location .navbar.navbar-search .container .search-box img {
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 460px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 95%;
+    }
+}
+
+@media (max-width: 444px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 95%;
+    }
+}
+
+@media (max-width: 426px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 94.5%;
+    }
+}
+
+@media (max-width: 392px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 94%;
+    }
+}
+
+@media (max-width: 363px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 93%;
+    }
+}
+
+@media (max-width: 318px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 92%;
+    }
+}
+
+@media (max-width: 284px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 91%;
+    }
+}
+
+@media (max-width: 257px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 236px) {
+    .app.search-location .navbar.navbar-search .container .search-box {
+        width: 100%;
+    }
+}
+
+.location-search-page .search-box-map {
+    padding: 17px 16px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.location-search-page .search-box-map .with-map {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.location-search-page .search-box-map .with-map img {
+    width: 23.62px;
+    height: 21px;
+}
+
+.location-search-page .search-box-map .with-map span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #30aee4;
+    margin-left: 9.37px;
+}
+
+.location-search-page .divider {
+    min-height: 9px;
+    max-height: 9px;
+    background-color: #f2f2f2;
+    display: block;
+}
+
+.location-search-page .search-result {
+    background-color: #fff;
+    /* margin-top: 9px; */
+    /* min-height: calc(100vh - 121px); */
+}
+
+.location-search-page .search-result .list-search-result .location {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 17.5px 15.25px;
+    cursor: pointer;
+}
+
+.location-search-page .search-result .list-search-result .location img {
+    width: 17.5px;
+    height: 25px;
+}
+
+.location-search-page
+    .search-result
+    .list-search-result
+    .location
+    .location-group-name {
+    margin-left: 15.25px;
+}
+
+.location-search-page
+    .search-result
+    .list-search-result
+    .location
+    .location-group-name
+    .location-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.location-search-page
+    .search-result
+    .list-search-result
+    .location
+    .location-group-name
+    .location-detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}

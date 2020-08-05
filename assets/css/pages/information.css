@@ -1,0 +1,50 @@
+.information-page .information-list .information {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 18px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.information-page .information-list .information .content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.information-page .information-list .information.with-version {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information-page .information-list .information:hover {
+    background: #0000000f;
+}
+
+.information-page .information-list .information svg {
+    min-width: 17px;
+    min-height: 17px;
+    max-width: 17px;
+    max-height: 17px;
+}
+
+.information-page .information-list .information .information-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 12px;
+}
+
+.information-page .information-list .information .version-now {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,504 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.main-app {
+    padding-bottom: 0px;
+    background-color: #f3f3f3 !important;
+}
+
+.order-schedule-page {
+    padding: 17px 15px 15px;
+}
+
+.wizard {
+    margin-top: 10px;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.connecting-line {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    /* width: 67.5%; */
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+    top: 15px;
+    z-index: 1;
+}
+
+.connecting-line.active {
+    background: #30aee4;
+}
+
+.connecting-line:nth-child(1) {
+    width: 33.75%;
+    left: 0;
+    right: 33.75%;
+}
+
+.connecting-line:nth-child(2) {
+    width: 33.75%;
+    left: 33.75%;
+    right: 0;
+}
+
+.wizard .nav-tabs > li.active > a,
+.wizard .nav-tabs > li.active > a:hover,
+.wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard .nav-tabs > li.done > a,
+.wizard .nav-tabs > li.done > a:hover,
+.wizard .nav-tabs > li.done > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgb(229, 229, 229);
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-style: normal;
+}
+
+span.round-tab.start {
+    left: -23px;
+}
+
+span.round-tab.end {
+    left: 15px;
+}
+
+.done span.round-tab {
+    line-height: 28px;
+}
+
+span.round-tab i {
+    color: #555555;
+}
+
+.wizard li.active span.round-tab {
+    background: #30aee4;
+    color: #fff;
+}
+
+.wizard li.active span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs > li.active > a i {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.wizard li.done span.round-tab {
+    background: rgb(141, 204, 231);
+    border: 1px solid #30aee4;
+    color: #fff;
+}
+
+.wizard li.done span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs > li.done > a i {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.wizard .nav-tabs > li {
+    width: 31%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+
+.wizard .nav-tabs > li a i {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 37px;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    left: 50%;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.wizard .nav-tabs > li a i.start {
+    transform: translate(-65%, 0);
+}
+
+.wizard .nav-tabs > li a i.middle {
+    transform: translate(-20%, 0);
+}
+
+.wizard .nav-tabs > li a i.end {
+    transform: translate(47%, 0);
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 20px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    /* .wizard .nav-tabs>li a i {
+        display: none;
+    } */
+}
+
+.order-schedule-page .notification {
+    margin-top: 78px;
+    background: rgba(48, 174, 228, 0.12);
+    border: 1px solid #30aee4;
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 14px 21px 17px;
+}
+
+.order-schedule-page .notification .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #30aee4;
+    margin-bottom: 10px;
+}
+
+.order-schedule-page .notification .title span {
+    font-weight: bold;
+}
+
+.order-schedule-page .notification .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #30aee4;
+}
+
+.order-schedule-page .schedule-list {
+    margin-top: 15px;
+}
+
+.order-schedule-page .schedule-list .schedule {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 55px;
+    cursor: pointer;
+}
+
+.order-schedule-page .schedule-list .schedule .day {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.order-schedule-page .schedule-list .schedule .description-time {
+    margin: auto 16px auto auto;
+    text-align: right;
+}
+
+.order-schedule-page .schedule-list .schedule .description-time .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.3);
+    margin-bottom: 2px;
+}
+
+.order-schedule-page .schedule-list .schedule .description-time .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #67cd7e;
+}
+
+.order-schedule-page .schedule-list .schedule .square {
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+
+.order-schedule-page .schedule-list .schedule.active .square {
+    background: url("../../images/icon_check_wizard.svg");
+    background-color: #30aee4;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.order-schedule-page .note-page {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.order-schedule-page .note-page svg path {
+    transition: 0.3s all;
+}
+
+.order-schedule-page .note-page textarea {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 70px;
+    margin-left: 14px;
+    padding-right: 20px;
+    resize: none;
+    overflow: hidden;
+}
+
+.order-schedule-page .note-page .clear-input-note {
+    padding: 9px;
+    margin-top: -8px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+}
+
+.order-schedule-page .footer {
+    margin-top: 29px;
+}
+
+#modalNotification {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #modalNotification .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#modalNotification .modal-dialog {
+    margin: auto;
+}
+.notification-modal .modal-body {
+    padding: 28px;
+}
+
+.notification-modal .modal-body img {
+    margin-bottom: 8px;
+}
+
+.notification-modal .modal-body .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.notification-modal .modal-body .title span {
+    font-weight: bold;
+}
+
+.notification-modal .modal-body .subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15.5px;
+    margin-bottom: 0px;
+}
+
+.notification-modal .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.notification-modal .modal-body .footer {
+    margin-top: 23px;
+}
+
+.notification-modal .modal-body .footer button {
+    min-width: 160px;
+}
+
+#accepted-schedule-modal {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    max-width: 444px;
+}
+
+#accepted-schedule-modal .accept-schedule-content {
+    width: 100%;
+    background: #fff;
+    bottom: -265px;
+    position: absolute;
+    display: block;
+    padding: 26px 15px 20px;
+    transition: .3s all;
+}
+
+#accepted-schedule-modal .accept-schedule-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+#accepted-schedule-modal.open .accept-schedule-content {
+    bottom: 0;
+}
+
+#accepted-schedule-modal .accept-schedule-content img {
+    display: block;
+    margin: auto;
+}
+
+#accepted-schedule-modal .accept-schedule-content .text-accept-schedule {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(37, 40, 43, 0.75);
+}
+
+#accepted-schedule-modal .accept-schedule-content .action-page {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+#accepted-schedule-modal .accept-schedule-content .action-page .btn-cancel-accept-schedule {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 20.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    border: none;
+    margin-right: 5px;
+    min-height:42px;
+}
+
+#accepted-schedule-modal .accept-schedule-content .action-page .btn-accept-schedule {
+    background: #30AEE4;
+    box-shadow: 3px 4px 10px rgba(48, 174, 228, 0.36);
+    border-radius: 21px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+    margin-top:0px;
+    min-height:42px;
+}

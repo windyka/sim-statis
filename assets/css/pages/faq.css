@@ -1,0 +1,46 @@
+.app {
+    background-color: #f7f7f7 !important;
+}
+
+.main-app {
+    background-color: #f7f7f7 !important;
+}
+
+.faq-page {
+    padding: 10px 15px 0px;
+}
+
+.faq-page .faq-list .faq{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+}
+
+.faq-page .faq-list .faq .faq-header{
+    padding: 17px 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.faq-page .faq-list .faq .faq-header svg{
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.faq-page .faq-list .faq .faq-body .faq-body-text{
+    padding: 17px 24px;
+    color:#777;
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+.authentication-page {
+    padding-top: 44px;
+}
+
+/* .authentication-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 13px;
+} */
+
+.authentication-image {
+    display: block;
+    margin: 0 auto 36px;
+}
+
+.authentication-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.option-authentication {
+    display: flex;
+    margin-top: 36px;
+}
+
+.btn-auth-login {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn-auth-register {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 0 !important;
+}

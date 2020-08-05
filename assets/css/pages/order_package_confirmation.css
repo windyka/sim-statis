@@ -1,0 +1,389 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.main-app {
+    padding-bottom: 15px;
+}
+
+.order-package-page {
+    padding: 17px 15px 75px;
+}
+
+.order-package-page .location {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    padding: 18px 18px 22px;
+    margin-bottom: 18px;
+}
+
+.order-package-page .location .header {
+    display: flex;
+    margin-bottom: 9px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-package-page .location .header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0px;
+}
+
+.order-package-page .location .header .change-location {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #30aee4;
+}
+
+.order-package-page .location .body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.order-package-page .location .body .pick-location{
+    min-width: 27.42px;
+    min-height: 39.17px;
+    max-width: 27.42px;
+    max-height: 39.17px;
+}
+
+.order-package-page .location .body .location-user {
+    margin-left: 15px;
+}
+
+.order-package-page .location .body .location-user .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+.order-package-page .location .body .location-user .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+}
+
+.order-package-page .package {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    padding: 18px 18px 22px;
+    margin-bottom: 14px;
+}
+
+.order-package-page .package .header {
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-package-page .package .header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0px;
+}
+
+.order-package-page .package .body .select-package {
+    border: 1px solid #cacccf;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.order-package-page .package .body .select-package .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.order-package-page .package .body .select-package img {
+    min-width: 25px;
+    min-height: 25px;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.order-package-page .benefit {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    padding: 18px 18px 22px;
+    margin-bottom: 12px;
+}
+
+.order-package-page .benefit .header {
+    display: flex;
+    margin-bottom: 22px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-package-page .benefit .header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0px;
+}
+
+.order-package-page .benefit .body .list-benefit .benefit-user {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: start;
+    justify-content: start;
+}
+
+.order-package-page .benefit .body .list-benefit .benefit-user img {
+    min-width: 15px;
+    min-height: 15px;
+    max-width: 15px;
+    max-height: 15px;
+}
+
+.order-package-page .benefit .body .list-benefit .benefit-user .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 13px;
+}
+
+.order-package-page .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background: #ffffff;
+    box-shadow: 4px -4px 6px rgba(0, 0, 0, 0.05);
+    padding: 16px 15px;
+    /* left: 0; */
+    /* right: 0; */
+    max-width: 444px;
+    margin-left: -15px;
+}
+
+.order-package-page .footer button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+}
+
+@media (min-width: 576px) {
+    #modalWelcome .modal-sm {
+        max-width: 330px;
+    }
+}
+
+.welcome-modal .modal-body {
+    padding: 28px;
+}
+
+.welcome-modal .modal-body .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 15px;
+    margin-top: 21px;
+}
+
+.welcome-modal .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+    margin-bottom: 21.5px;
+}
+
+.welcome-modal .modal-body .footer button {
+    min-width: 160px;
+    background: #29c768;
+    border-color: #29c768;
+}
+
+.welcome-modal .modal-body .footer button:hover {
+    border-color: #29c768;
+}
+
+#service-package-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 360px) {
+    #service-package-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#service-package-modal .modal-dialog {
+    margin: auto;
+}
+
+#service-package-modal .modal-content {
+    border-radius: 7px;
+}
+
+#service-package-modal .modal-content .modal-body {
+    padding: 0px;
+}
+
+#service-package-modal .modal-content .modal-body .list-package {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 18px;
+    cursor: pointer;
+    transition: 0.3s all;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package:hover {
+    background: #7c7c7c12;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package .package-name .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package .package-name .duration {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package .package-name .price {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 7px;
+}
+
+#service-package-modal .modal-content
+    .modal-body
+    .list-package
+    .package
+    .package-name
+    .price
+    .text-rp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-right: 5px;
+}
+
+#service-package-modal .modal-content
+    .modal-body
+    .list-package
+    .package
+    .package-name
+    .price
+    .text-price {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #30aee4;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package .round {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #d1d1d1;
+    background: #ffffff;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package.active .round {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #30aee4;
+    background: #ffffff;
+    padding: 3px;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package .round div {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+#service-package-modal .modal-content .modal-body .list-package .package.active .round div {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background: #30aee4;
+}
+
+#service-package-modal .modal-content .modal-body .footer {
+    padding: 0px 18px 18px;
+}
+
+#service-package-modal .modal-content .modal-body .footer button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+#service-package-modal .modal-content .modal-body .footer button:hover {
+    color: #fff;
+}

@@ -1,0 +1,1378 @@
+.main-app {
+    background-color: #f3f3f3 !important;
+}
+
+.service-detail-page {
+    padding: 17px 0px 0px;
+    background-color: #ffffff;
+}
+
+.service-detail-page .service-detail-menu {
+    margin-top: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.service-detail-page .service-detail-menu .list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.service-detail-page .service-detail-menu .list-menu .menu {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 7px;
+    margin-right: 21px;
+    cursor: pointer;
+}
+
+.service-detail-page .service-detail-menu .list-menu .menu.active {
+    border-bottom: 2px solid #30aee4;
+}
+
+.service-detail-page .service-detail-menu .list-menu .menu .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.service-detail-page .service-detail-menu .list-menu .menu.active .title {
+    color: #000000;
+}
+
+.service-detail-page .service-detail-of-list {
+    margin-top: 26px;
+}
+
+.service-detail-page .service-detail-of-list .of-list {
+    display: none;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert {
+    background: rgba(246, 166, 9, 0.22);
+    /* border: 1px solid #f6a609; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #bc8210;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert
+    svg {
+    cursor: pointer;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert-schedule {
+    background: rgba(246, 166, 9, 0.22);
+    /* border: 1px solid #f6a609; */
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert-schedule
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #bc8210;
+    margin: 0 20px 11px;
+    padding-top: 14px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert-schedule
+    .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #bc8210;
+    margin: 0 20px 16px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert-schedule
+    .btn-help-alert {
+    background: transparent;
+    border: transparent;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #BC8210;
+    min-width: 120px;
+    min-height: 50px;
+}
+
+/* .service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .notification-alert-schedule {
+    background: rgba(246, 166, 9, 0.22);
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 15px 20px;
+    margin-bottom: 16px;
+} */
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 19px 17px 21px;
+    /* margin-bottom: 17px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .header
+    .contract-header-detail
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .header
+    .contract-header-detail
+    .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .header
+    .contract-status {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 76px; */
+    min-height: 20px;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .header
+    .contract-status.green {
+    background: #29c768;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .service {
+    margin-bottom: 26px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .service
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .service
+    .service-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .service
+    .service-limit {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .period {
+    margin-bottom: 25px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .period
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .period
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .price
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 6px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .price
+    .price-view {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .price
+    .price-view
+    .text-rp {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 3px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .contract-detail
+    .price
+    .price-view
+    .text-price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 18px 18px 30px;
+    /* margin-bottom: 17px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail
+    .header-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail
+    .customer-name {
+    margin-bottom: 26px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail
+    .customer-name
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail
+    .customer-name
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail
+    .customer-address
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .customer-detail
+    .customer-address
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 20px 17px;
+    /* margin-bottom: 17px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .header-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner {
+    display: flex;
+    align-items: flex-start;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .day-time {
+    width: 100%;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .day-time
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .day-time
+    .content
+    .day-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .day-time
+    .content
+    .time-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .day-time
+    .nothing {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .partner {
+    width: 100%;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .partner
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .partner
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+/* .service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .partner
+    .content
+    .time-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+} */
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail
+    .schedule-partner
+    .partner
+    .nothing {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 20px 17px 0px;
+    /* margin-bottom: 17px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .header-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .header-collapse
+    .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification {
+    padding-bottom: 20px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification
+    .notification-schedule-in-verification {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-bottom: 18px;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification
+    .notification-schedule-in-verification
+    svg {
+    min-width: 18px;
+    min-height: 18px;
+    max-width: 18px;
+    max-height: 18px;
+    margin-right: 13.5px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification
+    .notification-schedule-in-verification
+    .text-notification {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification
+    .schedule-assign
+    .schedule {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification
+    .schedule-assign
+    .schedule
+    .day {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .schedule-detail-in-verification
+    .schedule-partner
+    .day-time-in-verification
+    .schedule-assign
+    .schedule
+    .time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #67cd7e;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail {
+    background: #ffffff;
+    /* border-radius: 7px; */
+    padding: 18px;
+    /* margin-top: 12px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-header
+    .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-header
+    .payment-status {
+    background: rgba(0, 0, 0, 0.3);
+    font-family: "Montserrat", sans-serif;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 94px; */
+    min-height: 20px;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-header
+    .payment-status.yellow {
+    background: #f6a609;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-header
+    .payment-status.green {
+    background: #29c768;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-header
+    .payment-status.red {
+    background: #ff4f4f;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-details {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-details
+    .payment-id
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-details
+    .payment-id
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-details
+    .payment-date
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-details
+    .payment-date
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: right;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-method {
+    margin-top: 20px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-method
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .payment-method
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page {
+    margin-top: 21px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .price
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .price
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .service-fee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .service-fee
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .service-fee
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .total-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .total-amount
+    .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .price-page
+    .total-amount
+    .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .invoice-footer {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .service-info-page
+    .payment-detail
+    .invoice-footer
+    a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #30aee4;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.service-detail-page .service-detail-of-list .service-info-page .footer {
+    margin-top: 19px;
+    padding: 0 15px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation {
+    background: #ffffff;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); */
+    /* border-radius: 7px; */
+    padding: 20px 18px;
+    /* margin-bottom: 15px; */
+    border-bottom: 5px solid #f3f3f3;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .header
+    .service-detail
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .header
+    .service-detail
+    .service-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .header
+    .service-detail
+    .service-date {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .header
+    .service-status {
+    background: #30aee4;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+    /* min-width: 49px; */
+    min-height: 18px;
+    color: #ffffff;
+    padding: 3px 10px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .body
+    .body-date
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .body
+    .body-date
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .body
+    .body-officer {
+    margin-left: 80px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .body
+    .body-officer
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 8px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .list-transportation
+    .transportation
+    .body
+    .body-officer
+    .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .nothing-list-transportation-page {
+    display: block;
+    margin-top: 92px;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .nothing-list-transportation-page
+    img {
+    display: block;
+    margin: auto;
+}
+
+.service-detail-page
+    .service-detail-of-list
+    .transportation-page
+    .nothing-list-transportation-page
+    .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 32px;
+}
+
+#confirmation-schedule-modal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 330px) {
+    #confirmation-schedule-modal .modal-dialog {
+        max-width: 330px;
+        min-width: 330px;
+    }
+}
+
+#confirmation-schedule-modal .modal-dialog {
+    margin: auto;
+}
+
+.confirmation-schedule-modal .modal-body {
+    padding: 28px;
+}
+
+.confirmation-schedule-modal .modal-body img {
+    margin-bottom: 8px;
+}
+
+.confirmation-schedule-modal .modal-body .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #808080;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.confirmation-schedule-modal .modal-body .footer {
+    margin-top: 25px;
+}
+
+.confirmation-schedule-modal .modal-body .footer button {
+    min-width: 160px;
+    background: #f6a609;
+    box-shadow: 3px 4px 10px rgba(255, 207, 1, 0.1);
+    color: #fff;
+}
+
+.confirmation-schedule-modal .modal-body .footer button:hover {
+    border-color: #f6a609;
+}

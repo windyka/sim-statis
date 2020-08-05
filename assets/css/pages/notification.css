@@ -1,0 +1,118 @@
+.app {
+    background-color: #f3f3f3 !important;
+}
+
+.main-app {
+    background-color: #f3f3f3 !important;
+}
+
+.notification-pages {
+    padding: 3px 15px 0px;
+}
+
+.notification-pages .notification-list .notification {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 25px 18px 22px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.notification-pages .notification-list .notification.disabled {
+    box-shadow: none;
+    cursor: default;
+}
+
+.notification-pages .notification-list .notification img {
+    padding: 5px;
+}
+
+.notification-pages .notification-list .notification.disabled img {
+    display: none;
+}
+
+.notification-pages .notification-list .notification .content {
+    margin-left: 11px;
+}
+
+.notification-pages .notification-list .notification.disabled .content {
+    margin-left: 5px;
+}
+
+.notification-pages .notification-list .notification .content .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.notification-pages .notification-list .notification.disabled .content .title {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.notification-pages .notification-list .notification .content .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.notification-pages
+    .notification-list
+    .notification.disabled
+    .content
+    .description {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.notification-pages .notification-loading {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.notification-pages .notification-loading .lds-spinner {
+    display: block;
+    margin: auto;
+}
+
+.notification-pages .notification-nothing {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.notification-pages .notification-nothing .notification-nothing-page {
+    display: block;
+    margin: auto;
+}
+
+.notification-pages .notification-nothing .notification-nothing-page img {
+    display: block;
+    margin: auto;
+}
+
+.notification-pages .notification-nothing .notification-nothing-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 32px;
+}

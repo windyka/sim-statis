@@ -1,0 +1,30 @@
+.account-manage-page .manage-list .manage {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 18px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: .3s all;
+    cursor: pointer;
+}
+
+
+.account-manage-page .manage-list .manage:hover {
+    background: #0000000f;
+}
+
+.account-manage-page .manage-list .manage svg {
+    min-width: 17px;
+    min-height: 17px;
+    max-width: 17px;
+    max-height: 17px;
+}
+
+.account-manage-page .manage-list .manage .manage-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 12px;
+}

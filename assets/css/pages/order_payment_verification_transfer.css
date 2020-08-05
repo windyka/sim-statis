@@ -1,0 +1,492 @@
+.main-app {
+    background-color: #fff;
+    padding-bottom: 0px;
+}
+
+.order-payment-verification-page {
+    padding: 17px 15px 15px;
+}
+
+.wizard {
+    margin-top: 10px;
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.connecting-line {
+    height: 2px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    /* width: 67.5%; */
+    margin: 0 auto;
+    /* left: 0; */
+    /* right: 0; */
+    top: 15px;
+    z-index: 1;
+}
+
+.connecting-line.active {
+    background: #30aee4;
+}
+
+.connecting-line:nth-child(1) {
+    width: 33.75%;
+    left: 0;
+    right: 33.75%;
+}
+
+.connecting-line:nth-child(2) {
+    width: 33.75%;
+    left: 33.75%;
+    right: 0;
+}
+
+.wizard .nav-tabs > li.active > a,
+.wizard .nav-tabs > li.active > a:hover,
+.wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+.wizard .nav-tabs > li.done > a,
+.wizard .nav-tabs > li.done > a:hover,
+.wizard .nav-tabs > li.done > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgb(229, 229, 229);
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-style: normal;
+}
+
+span.round-tab.start {
+    left: -23px;
+}
+
+span.round-tab.end {
+    left: 15px;
+}
+
+.done span.round-tab {
+    line-height: 28px;
+}
+
+span.round-tab i {
+    color: #555555;
+}
+
+.wizard li.active span.round-tab {
+    background: #30aee4;
+    color: #fff;
+}
+
+.wizard li.active span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs > li.active > a i {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.wizard li.done span.round-tab {
+    background: rgb(141, 204, 231);
+    border: 1px solid #30aee4;
+    color: #fff;
+}
+
+.wizard li.done span.round-tab i {
+    color: #5bc0de;
+}
+
+.wizard .nav-tabs > li.done > a i {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #30aee4;
+}
+
+.wizard .nav-tabs > li {
+    width: 31%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: red;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard .nav-tabs > li a {
+    width: 30px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    top: 0;
+}
+
+.wizard .nav-tabs > li a i {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 37px;
+    font-style: normal;
+    font-weight: normal;
+    white-space: nowrap;
+    left: 50%;
+    font-size: 10px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.wizard .nav-tabs > li a i.start {
+    transform: translate(-65%, 0);
+}
+
+.wizard .nav-tabs > li a i.middle {
+    transform: translate(-20%, 0);
+}
+
+.wizard .nav-tabs > li a i.end {
+    transform: translate(47%, 0);
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 20px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    /* .wizard .nav-tabs>li a i {
+        display: none;
+    } */
+}
+
+.order-payment-verification-page .header {
+    text-align: center;
+    margin: 83px auto 14px;
+}
+
+.order-payment-verification-page .header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+.order-payment-verification-page .header .thank-note {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 276px;
+    margin: auto;
+    margin-bottom: 11px;
+}
+
+.order-payment-verification-page .header .description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 276px;
+    margin: auto;
+}
+
+.order-payment-verification-page .header .alert-header-text {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 20px 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    margin-top:19px;
+}
+
+.order-payment-verification-page .header .alert-header-text svg {
+    min-width: 17px;
+    min-height: 17px;
+    max-width: 17px;
+    max-height: 17px;
+}
+
+.order-payment-verification-page .header .alert-header-text .text-alert {
+    margin-left: 13px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order-payment-verification-page .body {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 16px 16px 0;
+    margin-bottom: 16px;
+}
+
+.order-payment-verification-page .body .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0 20px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.order-payment-verification-page .body .header .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0px;
+}
+
+.order-payment-verification-page .body .contain-collapse-detail-payment {
+    padding-bottom: 16px;
+}
+
+.order-payment-verification-page .body .detail-payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.order-payment-verification-page .body .detail-payment .payment-id .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.order-payment-verification-page .body .detail-payment .payment-id .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.order-payment-verification-page .body .detail-payment .payment-date .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+.order-payment-verification-page .body .detail-payment .payment-date .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-align: right;
+}
+
+.order-payment-verification-page .body .payment-method {
+    margin-top: 9px;
+    margin-bottom: 11px;
+}
+
+.order-payment-verification-page .body .payment-method .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.order-payment-verification-page .body .payment-method .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.order-payment-verification-page .body .detail-price {
+    margin-top: 11px;
+    margin-bottom: 16px;
+}
+
+.order-payment-verification-page .body .detail-price .price-pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.order-payment-verification-page .body .detail-price .price-pay .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order-payment-verification-page .body .detail-price .price-pay .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.order-payment-verification-page .body .detail-price .cost-pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-payment-verification-page .body .detail-price .cost-pay .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.order-payment-verification-page .body .detail-price .cost-pay .content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.order-payment-verification-page .body hr {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0;
+}
+
+.order-payment-verification-page .body .total-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.order-payment-verification-page .body .total-page .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.order-payment-verification-page .body .total-page .content {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.order-payment-verification-page .footer .alert-footer-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #808080;
+    max-width: 296px;
+    margin: 11px auto 20px;
+}
+
+.order-payment-verification-page .footer .alert-footer-text b {
+    color: #000000;
+}
+
+.order-payment-verification-page .footer .action-button {
+    display: flex;
+}
+
+.order-payment-verification-page .footer .btn-send-proof {
+    display: inline-block;
+    margin-right: 5.5px;
+}
+
+.order-payment-verification-page .footer .btn-help {
+    display: inline-block;
+    margin-left: 5.5px;
+    margin-top: 0px !important;
+}
+
+/* .order-payment-verification-page .footer .btn-understand {
+    display: inline-block;
+    margin-left: 5.5px;
+    margin-top: 0px !important;
+} */

@@ -1,0 +1,37 @@
+.account-edit-page {
+    padding: 17px 15px;
+}
+
+.account-edit-page form .form-group .label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0;
+}
+
+.account-edit-page form .form-group .form-control {
+    border: 1px solid #cacccf;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 14px 16px;
+    line-height: 20px;
+    color: #000000;
+    min-height: 48px;
+}
+
+.account-edit-page form .form-group select.form-control {
+    padding: 12px 16px;
+}
+
+.account-edit-page form .action-form.action-bottom {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    bottom: 0;
+    /* bottom: 71px; */
+    left:0;
+    right:0;
+}

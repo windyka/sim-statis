@@ -1,0 +1,32 @@
+.not-found-page {
+    display: block;
+    padding: 100px 0 0;
+}
+
+.not-found-page .not-found-img {
+    margin-bottom: 12px;
+}
+
+.not-found-page .title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.not-found-page .detail {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 62px;
+}
+
+.not-found-page .btn-back {
+    min-width: 160px;
+    padding: 13px;
+    box-shadow: 3px 4px 10px rgba(6, 165, 191, 0.25);
+}
