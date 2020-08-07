@@ -148,10 +148,10 @@ body {
   padding-bottom: 10px;
 }
 
-.btn-primary {
+.btn-yellow {
   color: #fff;
-  background-color: #30aee4;
-  border-color: #30aee4;
+  background-color: #ff9463;
+  border-color: #ff9463;
 }
 
 .btn-primary:hover {
