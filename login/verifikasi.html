@@ -45,57 +45,65 @@
     <div id="login" class="app app-navbar container">
       <main class="login-header">
         <div class="login-body text-dark col-12">
-          <div>
-            <div>
-              <a href="">
+          <div class="row">
+            <div class="col-3">
+              <a href="" class="">
                 <img
-                  src="./../icon/logo-sekolah/skamuhi.png"
+                  src="./../icon/logo-sekolah/1 4.png"
                   alt=""
-                  style="width: 163px; height: 258px; margin-left: 25%; padding-top: 20%;"
                   class="icon-back"
                 />
               </a>
             </div>
 
-            <div style="text-align: center; font-size: 16px; font-family: Open Sans; color: rgba(0, 0, 0, 0.5); padding-top: 5%;">
-              <h6>Selamat Datang di</h6>
-              <h6>SMK MUHAMMADIYAH 1 WELERI</h6>
+            <div class="col-9 col-md-7">
+              <h6 class="login-title text-left pt-4 text-warning">
+                SMK MUHAMMADIYAH 1 WELERI
+              </h6>
             </div>
-          <div style="text-align: center; padding-top: 23%; font-size: 12px; font-family: Open Sans; color: rgba(0, 0, 0, 0.5);">  
-            <h6>Bergabung bersama kami dan nikmati layanannya</h6>
-          </div>
-          </div>
-          <div class="col-12 mt-6">
-            <div>
-                <a
-                href="login-default.html"
-                class="btn btn mt-3 follow-btn "
-                style="width: 100%; height: 48px; border: 1px solid #FF9463;
+
+            <div class="col-12 mt-5">
+              <h3 class="h-3" style="padding-top: 20px ">
+                <strong>DAFTAR</strong>
+              </h3>
+              <p>Masukkan nomor telpon anda</p>
+            </div>
+
+            <div class="col-12 mt-5">
+              <h6 class="h-6" style="padding-top: 20px;">
+                <strong>No Telpon</strong>
+              </h6>
+              <input
+                id="frist_name"
+                type=""
+                class="form-control"
+                name="frist_name"
+                placeholder="0000 0000 0000"
+                autofocus=""
+                data-height="55"
+                style="height: 55px; border: 1px solid #CACCCF;
                 box-sizing: border-box;
-                box-shadow: 3px 4px 10px rgba(255, 148, 99, 0.25);
-                border-radius: 25px; padding-top: 15px"
-                data-follow-action="alert('follow clicked');"
-                data-unfollow-action="alert('unfollow clicked');"
-                tabindex="4"
-                >Login</a>
+                border-radius: 10px;"
+              />
             </div>
+          </div>
+          <br>
+            <h6 style="text-align: center"> Kode akan dikirim ulang dalam 60 detik</h6>
+          <div>
+            <a
+              href="javascript:;"
+              class="btn btn-yellow mt-3 follow-btn "
+              style="width: 100%; height: 48px; border: 1px solid #FF9463;
+            box-sizing: border-box;
+            box-shadow: 3px 4px 10px rgba(255, 148, 99, 0.25);
+            border-radius: 25px; padding-top: 15px"
+              data-follow-action="alert('follow clicked');"
+              data-unfollow-action="alert('unfollow clicked');"
+              tabindex="4"
+              >Konfirmasi</a>
           </div>
         </div>
-        <div class="col-12 mt-6">
-            <div>
-                <a
-                href="daftar.html"
-                class="btn btn-yellow mt-3 follow-btn "
-                style="width: 93%; height: 48px; border: 1px solid #FF9463;
-                box-sizing: border-box;
-                box-shadow: 3px 4px 10px rgba(255, 148, 99, 0.25);
-                border-radius: 25px; padding-top: 15px; margin-left: 10px"
-                data-follow-action="alert('follow clicked');"
-                data-unfollow-action="alert('unfollow clicked');"
-                tabindex="4"
-                >Daftar</a>
-            </div>
-        </div>
+        <br>
       </main>
 
       <div class="loading-page" style="display:none">
