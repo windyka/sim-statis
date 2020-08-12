@@ -134,12 +134,28 @@ body {
   padding-bottom: 25px;
 }
 
+.home-app {
+  min-height: calc(100vh);
+  position: relative;
+  padding-bottom: 25px;
+}
+
 .app-navbar .main-app {
   min-height: calc(100vh - 60px);
   top: 56px;
 }
 
+.app-navbar .home-app {
+  min-height: calc(100vh - 60px);
+  top: 16px;
+}
+
 .app-bottom-navigation .main-app {
+  min-height: calc(100vh - 73px);
+  margin-bottom: 73px;
+}
+
+.app-bottom-navigation .home-app {
   min-height: calc(100vh - 73px);
   margin-bottom: 73px;
 }
