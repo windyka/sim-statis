@@ -1,68 +1,287 @@
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Example</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="./../assets/images/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./../assets/images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./../assets/images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="manifest.webmanifest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIM PROJECT</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./../assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./../assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./../assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
 
-        <meta name="mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="msapplication-starturl" content="/">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="theme-color" content="@yield('theme-color', '#30aee4">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="@yield('theme-color', '#30aee4" />
 
-        <!-- General CSS -->
-        <link rel="stylesheet" href="./../assets/dist/css/bootstrap.min.css" />
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./../assets/dist/css/bootstrap.min.css" />
 
-        <!-- CSS Libraries -->
-        <link rel="stylesheet" href="./../assets/css/pages/authentication.css" />
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="./../assets/css/pages/authentication.css" />
 
-        <!-- Template CSS -->
-        <link rel="stylesheet" href="./../assets/css/style.css" />
-    </head>
-    <body>
-        <div id="app" class="app app-navbar container @yield('class-app">
-            <nav class="navbar fixed-top bg-white">
-                <div class="container">
-                    <a href="" class="nav-link-back">
-                        <img src="./../icon/other/icon-back.svg" alt="" class="icon-back"/>
-                    </a>
-                    <h6 class="navbar-title text-warning">Pengumuman</h6>
-                    <div style="min-width:24px;"></div>
-                </div>
-            </nav>
-
-            <main class="main-app">
-                
-            </main>
-
-            <div class="loading-page" style="display:none">
-                <div class="loading-dialog">
-                    <div class="loading-content">
-                        <div class="lds-spinner">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div id="app" class="app app-navbar container @yield('class-app">
+      <nav class="navbar fixed-top bg-white">
+        <div class="container">
+          <a href="" class="nav-link-back">
+            <img src="./../icon/other/icon-back.svg" alt="" class="icon-back" />
+          </a>
+          <h6 class="navbar-title text-warning">Pengumuman</h6>
+          <div style="min-width: 24px;"></div>
         </div>
+      </nav>
+      <div class="grid">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-2"
+              style="padding-top: 80px; margin-left: -40px;"
+            >
+              <a href="">
+                <img
+                  src="./../icon/info/Group 468.png"
+                  alt=""
+                  style="width: 19px; height: 19px;"
+                  class="icon-info"
+                />
+              </a>
+            </div>
+            <div
+              class="col-md-5"
+              style="
+                padding-top: 87px;
+                font-size: 11px;
+                font-family: Open Sans;
+                margin-left: -8px;
+              "
+            >
+              <strong>Pembelajaran Daring</strong>
+            </div>
+            <div
+              class="col-md-5"
+              style="
+                padding-top: 87px;
+                font-size: 10px;
+                font-family: Open Sans;
+                margin-left: 40px;
+              "
+            >
+              19 Januari, 02:13 PM
+            </div>
+          </div>
+        </div>
+      </div>
+      <h6
+        style="
+          padding-top: 15px;
+          font-size: 11px;
+          font-family: Open Sans;
+          margin-left: 42px;
+        "
+      >
+        Mulai : 19 Januari
+      </h6>
+      <div>
+        <h6
+          style="
+            font-family: Open Sans;
+            font-size: 11px;
+            margin-left: 42px;
+            padding-top: 10px;
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqui
+        </h6>
+      </div>
+      <a href="">
+        <img
+          src="./../assets/images/undanganpemberitahuan.svg"
+          alt=""
+          style="
+            width: 335px;
+            height: 121px;
+            padding-top: 15px;
+            margin-left: 42px;
+          "
+          class="undangan-pemberitahuan"
+        />
+      </a>
+      <div class="grid">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-2"
+              style="padding-top: 40px; margin-left: -40px;"
+            >
+              <a href="">
+                <img
+                  src="./../icon/event/icon event.png"
+                  alt=""
+                  style="width: 19px; height: 19px;"
+                  class="icon-event"
+                />
+              </a>
+            </div>
+            <div
+              class="col-md-5"
+              style="
+                padding-top: 47px;
+                font-size: 10px;
+                font-family: Open Sans;
+                margin-left: -8px;
+              "
+            >
+              <strong>Penerimaan Siswa Baru</strong>
+            </div>
+            <div
+              class="col-md-5"
+              style="
+                padding-top: 47px;
+                font-size: 10px;
+                font-family: Open Sans;
+                margin-left: 40px;
+              "
+            >
+              19 Januari, 02:13 PM
+            </div>
+            <h6
+              style="
+                padding-top: 15px;
+                font-size: 11px;
+                font-family: Open Sans;
+                margin-left: 22px;
+              "
+            >
+              Mulai : 19 Januari
+            </h6>
+            <div>
+              <h6
+                style="
+                  font-family: Open Sans;
+                  font-size: 11px;
+                  margin-left: 22px;
+                  padding-top: 10px;
+                "
+              >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliqui
+              </h6>
+              <div class="grid">
+                <div class="container">
+                  <div class="row">
+                    <div
+                      class="col-md-2"
+                      style="padding-top: 30px; margin-left: -60px;"
+                    >
+                      <a href="">
+                        <img
+                          src="./../icon/libur/icon libur.png"
+                          alt=""
+                          style="width: 19px; height: 19px;"
+                          class="icon-libur"
+                        />
+                      </a>
+                    </div>
+                    <div
+                      class="col-md-5"
+                      style="
+                        padding-top: 36px;
+                        font-size: 11px;
+                        font-family: Open Sans;
+                        margin-left: -8px;
+                      "
+                    >
+                      <strong>Libur Nasional</strong>
+                    </div>
+                    <div
+                      class="col-md-5"
+                      style="
+                        padding-top: 37px;
+                        font-size: 10px;
+                        font-family: Open Sans;
+                        margin-left: 60px;
+                      "
+                    >
+                      19 Januari, 02:13 PM
+                    </div>
+                    <h6
+                      style="
+                        padding-top: 15px;
+                        font-size: 11px;
+                        font-family: Open Sans;
+                        margin-left: -5px;
+                      "
+                    >
+                      Mulai : 19 Januari
+                    </h6>
+                    <div>
+                      <h6
+                        style="
+                          font-family: Open Sans;
+                          font-size: 11px;
+                          margin-left: -9px;
+                          padding-top: 10px;
+                        "
+                      >
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliqui
+                      </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <!-- General JS Scripts -->
-        <script src="./../assets/js/jquery-3.5.1.min.js"></script>
-        <script src="./../assets/dist/js/bootstrap.min.js"></script>
-        <script src="./../assets/js/service-worker.js"></script>
-    </body>
+    <div class="loading-page" style="display: none;">
+      <div class="loading-dialog">
+        <div class="loading-content">
+          <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- General JS Scripts -->
+    <script src="./../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./../assets/dist/js/bootstrap.min.js"></script>
+    <script src="./../assets/js/service-worker.js"></script>
+  </body>
 </html>
