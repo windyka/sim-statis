@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 4px;
   color: rgba(0, 0, 0, 0.75);
   letter-spacing: 0.2px;
   line-height: 32px;
@@ -10127,7 +10127,7 @@ a.text-info:hover, a.text-info:focus {
 }
 
 .text-warning {
-  color: #FF9463 !important;
+  color: #ff9463 !important
 }
 
 a.text-warning:hover, a.text-warning:focus {
