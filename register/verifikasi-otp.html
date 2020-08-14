@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIM PROJECT</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./../assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./../assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./../assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="@yield('theme-color', '#30aee4" />
+
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./../assets/dist/css/bootstrap.min.css" />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="./../assets/css/pages/authentication.css" />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div id="app" class="app app-navbar container @yield('class-app">
+      <nav class="navbar fixed-top bg-white">
+        <div class="container">
+          <a href="" class="nav-link-back">
+            <img src="./../icon/other/icon-back.svg" alt="" class="icon-back" />
+          </a>
+          <h6 class="navbar-title text-warning">Login</h6>
+          <div style="min-width: 24px;"></div>
+        </div>
+      </nav>
+      <div style="padding-top: 110px;">
+        <h1
+          style="
+            font-size: 24px;
+            font-family: Open Sans;
+            font-weight: bold;
+            margin-left: 10px;
+          "
+        >
+          VERIFIKASI
+        </h1>
+        <h3
+          style="
+            font-size: 20px;
+            font-family: Open Sans;
+            margin-left: 10px;
+            padding-top: 20px;
+          "
+        >
+          Masukkan kode OTP yang telah dikirimkan ke nomor berikut ini:
+        </h3>
+        <h3
+          style="
+            font-size: 18px;
+            font-family: Open Sans;
+            margin-left: 10px;
+            padding-top: 20px;
+            color: #ff9463;
+          "
+        >
+          0823 4567 5678
+        </h3>
+      </div>
+      <div>
+        <h5
+          style="
+            font-size: 14px;
+            font-family: Open Sans;
+            padding-top: 130px;
+            text-align: center;
+          "
+        >
+          Kode akan dikirim ulang dalam 60 detik
+        </h5>
+      </div>
+      <button
+        style="
+          background-color: lightcoral;
+          border-radius: 25px;
+          box-sizing: border-box;
+          box-shadow: 3px 4px 10px rgba(255, 148, 99, 0.25);
+          border: 1px solid rgba(255, 148, 99, 0.75);
+          margin-top: 40px;
+          width: 100%;
+          text-align: center;
+          font-size: 14px;
+          color: #ffffff;
+          font-family: Nunito;
+          height: 50px;
+        "
+      >
+        Konfirmasi
+      </button>
+    </div>
+    <!-- General JS Scripts -->
+    <script src="./../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./../assets/dist/js/bootstrap.min.js"></script>
+    <script src="./../assets/js/service-worker.js"></script>
+  </body>
+</html>
