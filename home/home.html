@@ -26,7 +26,7 @@
 
         <style>
             .banner-home {
-                height: 131px;
+                height: 150px;
                 width: 100%;
                 border-radius: 10px;
                 background-image: url('./../icon/banner/banner-home.svg');
@@ -55,6 +55,47 @@
                 font-style: normal;
                 font-weight: 600;
             }
+            .pengumuman-list-x {
+                -webkit-overflow-scrolling: touch;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                white-space: nowrap;
+            }
+            .pengumuman-card {
+                height: 125px;
+                width: 100%;
+                border-radius: 10px;
+                display:inline-block;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .tugas-list-x {
+                -webkit-overflow-scrolling: touch;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                white-space: nowrap;
+                padding: 3px;
+            }
+            .tugas-card {
+                height: 70px;
+                width: 100%;
+                border-radius: 10px;
+                display:inline-block;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-color: white;
+                box-shadow: 0px 1px 4px rgb(210 210 210);
+            }
+            .tugas-list-icon {
+                height: 35px;
+                width: 35px;
+                /* background-color: white; */
+                /* background-image: url('./../icon/fitur/list-icon.svg'); */
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+                box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.06);
+            }
         </style>
     </head>
     <body>
@@ -70,7 +111,8 @@
                             Selamat datang di SMK Muhammadiyah 1 Weleri. Selamat belajar.....
                         </p>
                     </div>
-                    <div class="col-12 mt-4">
+                    <hr>
+                    <div class="col-12 mt-3">
                         <p class="judul-section">Fitur buat kamu</p>
                         <p class="text-muted">Fitur menarik mananti kamu nih</p>
                     </div>
@@ -103,8 +145,35 @@
                         </div>
                     </div>
                     <div class="col-12 mt-3">
+                        <hr>
+                        <p class="judul-section">Jangan sampai kelewat....!!</p>
+                        <p class="text-muted">Ayok jangan sampai kamu lewatin nih nanti rugi loh</p>
+                        <div class="pengumuman-card mt-3" style="background-image: url('./../icon/banner/banner-home.svg');"></div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <hr>
                         <p class="judul-section">Ada apa di MUHI?</p>
                         <p class="text-muted">Cara tahu ada up date apa di MUHI jangan sampai kamu ketinggalan !!!</p>
+                        <div class="pengumuman-list-x mt-3">
+                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/event-1.png');"></div>
+                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/banner-home.svg');"></div>
+                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/banner-home.svg');"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <hr>
+                        <p class="judul-section">Buruan nanti telat</p>
+                        <p class="text-muted">Sepertinya kamu lupa mengerjakan tugas kamu nih, yuk buruan kerjaiin mumpung masih ada waktu..... </p>
+                        <div class="tugas-list-x mt-3">
+                            <div class="col-10 tugas-card">
+                                
+                            </div>
+                            <div class="col-10 tugas-card"></div>
+                            <div class="col-10 tugas-card"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                       
                     </div>
                 </div>
             </main>
