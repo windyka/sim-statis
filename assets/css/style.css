@@ -147,7 +147,7 @@ body {
 
 .app-navbar .home-app {
   min-height: calc(100vh - 60px);
-  top: 16px;
+  top: 20px;
 }
 
 .app-bottom-navigation .main-app {

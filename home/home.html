@@ -49,7 +49,8 @@
                 background-image: url('./../icon/banner/banner-home.svg');
                 background-repeat: no-repeat;
                 background-size: cover;
-                padding-right: 30%
+                padding-right: 30%;
+                box-shadow: 1px 2px 4px #cccccc;
             }
             .fitur {
                 height: 50px;
@@ -61,7 +62,20 @@
                 border-radius: 50%;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
             }
+            .tugas-home {
+                height: 30px;
+                width: 30px;
+                /* background-color: white; */
+                /* background-image: url('./../icon/fitur/list-icon.svg'); */
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 50%;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+            }
             .fitur-frame {
+                background-color: white;
+            }
+            .tugas-home-frame {
                 background-color: white;
             }
             .judul-section {
@@ -85,6 +99,7 @@
                 display:inline-block;
                 background-repeat: no-repeat;
                 background-size: cover;
+                box-shadow: 1px 2px 4px #cccccc;
             }
             .tugas-list-x {
                 -webkit-overflow-scrolling: touch;
@@ -118,7 +133,7 @@
     <body>
         <div id="app" class="app app-navbar container">
 
-            <main class="home-app">
+            <main class="home-app" style="margin-bottom: 10em;">
                 <div class="row">
                     <div class="col-12 banner-home">
                         <h6 class="text-bold text-white mt-5">
@@ -128,8 +143,8 @@
                             Selamat datang di SMK Muhammadiyah 1 Weleri. Selamat belajar.....
                         </p>
                     </div>
-                    <hr>
-                    <div class="col-12 mt-3">
+                    <!-- <hr> -->
+                    <div class="col-12 mt-4">
                         <p class="judul-section">Fitur buat kamu</p>
                         <p class="text-muted">Fitur menarik mananti kamu nih</p>
                     </div>
@@ -161,62 +176,120 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
-                        <hr>
+                    <div class="col-12 mt-4">
+                        <!-- <hr> -->
                         <p class="judul-section">Jangan sampai kelewat....!!</p>
                         <p class="text-muted">Ayok jangan sampai kamu lewatin nih nanti rugi loh</p>
                         <div class="pengumuman-card mt-3" style="background-image: url('./../icon/banner/banner-home.svg');"></div>
                     </div>
-                    <div class="col-12 mt-3">
-                        <hr>
+                    <div class="col-12 mt-4">
+                        <!-- <hr> -->
                         <p class="judul-section">Ada apa di MUHI?</p>
                         <p class="text-muted">Cara tahu ada up date apa di MUHI jangan sampai kamu ketinggalan !!!</p>
                         <div class="pengumuman-list-x mt-3">
-                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/event-1.png');"></div>
-                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/banner-home.svg');"></div>
-                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/banner-home.svg');"></div>
+                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/event-1.png');">
+                            </div>
+                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/banner-home.svg');">
+                            </div>
+                            <div class="col-10 pengumuman-card" style="background-image: url('./../icon/banner/banner-home.svg');">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 mt-3">
-                        <hr>
+                    <div class="col-12 mt-4">
+                        <!-- <hr> -->
                         <p class="judul-section">Buruan nanti telat</p>
-                        <p class="text-muted">Sepertinya kamu lupa mengerjakan tugas kamu nih, yuk buruan kerjaiin mumpung masih ada waktu..... </p>
+                        <p class="text-muted">Sepertinya kamu lupa mengerjakan tugas kamu nih, yuk buruan kerjaiin mumpung masih ada
+                            waktu..... </p>
                         <div class="tugas-list-x mt-3">
                             <div class="col-10 tugas-card">
-                                
+                                <div class="row mt-3">
+                                    <div class="col-2 tugas-home-frame">
+                                        <div class="tugas-home" style="background-image: url('./../icon/fitur/list-icon.svg');"></div>
+                                    </div>
+                                    <div class="col-10">
+                                        <b>PRE-TEST Bahasa Arab</b>
+                                        <p class="text-muted">12 Juli</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-10 tugas-card"></div>
-                            <div class="col-10 tugas-card"></div>
+                            <div class="col-10 tugas-card">
+                                <div class="row mt-3">
+                                    <div class="col-2 tugas-home-frame">
+                                        <div class="tugas-home" style="background-image: url('./../icon/fitur/list-icon.svg');"></div>
+                                    </div>
+                                    <div class="col-10">
+                                        <b>PRE-TEST Bahasa Arab</b>
+                                        <p class="text-muted">12 Juli</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-10 tugas-card">
+                                <div class="row mt-3">
+                                    <div class="col-2 tugas-home-frame">
+                                        <div class="tugas-home" style="background-image: url('./../icon/fitur/list-icon.svg');"></div>
+                                    </div>
+                                    <div class="col-10">
+                                        <b>PRE-TEST Bahasa Arab</b>
+                                        <p class="text-muted">12 Juli</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
+            </main>
 
-      <div class="loading-page" style="display:none">
-        <div class="loading-dialog">
-          <div class="loading-content">
-            <div class="lds-spinner">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div class="bottom-navigation-root">
+                <div class="bottom-navigation">
+                    <a href="" class="menu" id="bottom-navigation-home">
+                        <span class="menu-item">
+                            <img src="./../icon/navigation/mdi_home.svg" alt="">
+                            <span class="title-menu">
+                                <b class="text-muted">Home</b>
+                            </span>
+                        </span>
+                    </a>
+                    <a href="" class="menu" id="bottom-navigation-fitur">
+                        <span class="menu-item">
+                            <img src="./../icon/navigation/mdi_extension.svg" alt="">
+                            <span class="title-menu">
+                                <b>Fitur</b>
+                            </span>
+                        </span>
+                    </a>
+                    <a href="" class="menu" id="bottom-navigation-account">
+                        <span class="menu-item">
+                            <img src="./../icon/navigation/mdi_person.svg" alt="">
+                            <span class="title-menu">
+                                <b>Akun</b>
+                            </span>
+                        </span>
+                    </a>
+                </div>
             </div>
-          </div>
+    
+            <div class="loading-page" style="display:none">
+                <div class="loading-dialog">
+                <div class="loading-content">
+                    <div class="lds-spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
         </div>
-      </div>
-    </div>
 
-    <!-- General JS Scripts -->
-    <script src="./../assets/js/jquery-3.5.1.min.js"></script>
-    <script src="./../assets/dist/js/bootstrap.min.js"></script>
-    <script src="./../assets/js/service-worker.js"></script>
-  </body>
+        <!-- General JS Scripts -->
+        <script src="./../assets/js/jquery-3.5.1.min.js"></script>
+        <script src="./../assets/dist/js/bootstrap.min.js"></script>
+        <script src="./../assets/js/service-worker.js"></script>
+    </body>
 </html>
