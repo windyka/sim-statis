@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="{{ config('app.locale') }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./../assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./../assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./../assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="msapplication-starturl" content="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="@yield('theme-color', '#30aee4" />
+
+    <!-- General CSS -->
+    <link rel="stylesheet" href="./../assets/dist/css/bootstrap.min.css" />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="./../assets/css/pages/authentication.css" />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+
+    <style>
+      .banner-home {
+        height: 131px;
+        width: 100%;
+        border-radius: 10px;
+        background-image: url('./../icon/banner/banner-home.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-right: 30%;
+        margin-top: 65px;
+      }
+      .judul-section {
+        font-size: 16px;
+        font-family: 'Open Sans';
+        letter-spacing: -0.0555556px;
+        line-height: 24px;
+        font-style: normal;
+        font-weight: 600;
+      }
+      .grid {
+        padding-top: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app" class="app app-navbar container">
+      <nav class="navbar fixed-top bg-white">
+        <div class="container">
+          <a href="" class="nav-link-back">
+            <img src="./../icon/other/icon-back.svg" alt="" class="icon-back" />
+          </a>
+          <h6 class="navbar-title text-warning">Detail Tugas</h6>
+          <div style="min-width: 24px;"></div>
+        </div>
+      </nav>
+      <main class="home-app">
+        <div class="container">
+          <div class="row grid">
+            <div
+              class="col-2 border"
+              style="
+                border-radius: 100%;
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.06);
+              "
+            >
+              <img src="./../icon/fitur/list-icon.svg" style="padding: 10px;" />
+            </div>
+            <div class="col-10">
+              <div class="row">
+                <div class="col-11">
+                  <h6 style="font-size: 14.5px; font-family: Open Sans;">
+                    PRE-TEST Matematika
+                  </h6>
+                </div>
+                <div class="col">
+                  <p class="text-muted" style="font-size: 8px;">
+                    12 Juli,10.30 PM
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="col-8"></div>
+              <div class="col-4 text-muted">
+                <p
+                  style="
+                    font-size: 8px;
+                    margin-top: 8px;
+                    font-family: Open Sans;
+                  "
+                >
+                  Due Jul 14, 10.30PM
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+
+          <!-- paragraf -->
+          <div style="line-height: 20px;">
+            <h6 style="font-size: 12px; color: #000000; padding-top: 20px;">
+              Kerjakan soal berikut di buku catatan beserta caranya!
+            </h6>
+            <ol style="font-size: 12px; color: #000000; margin-left: -28px;">
+              <li>
+                Berapa banyak bilangan yang terdiri dari 3 angka dapat dibentuk
+                dari angka-angka 1,2,3,4,5,6,7, dan 8 jika tiap-tiap angka boleh
+                diulang?
+              </li>
+              <li>
+                Berapa banyak susunan huruf yang dapat dibentuk oleh huruf-huruf
+                pada kata “GARDU” tanpa ada pengulangan kata :
+              </li>
+              <ol>
+                a. Huruf pertama adalah huruf hidup
+              </ol>
+              <ol>
+                b. Huruf pertama huruf mati dan huruf ketiga huruf hidup
+              </ol>
+              <li>
+                Jika diperlukan 5 orang laki-laki dan 4 orang perempuan untuk
+                membentuk suatu barisan sedemikian rupa hingga yang perempuan
+                menempati posisi genap, berapa banyak kemungkinan susunan
+                barisan itu?
+              </li>
+              <li>
+                Hitunglah berapa banyak bilangan yang terdiri dari 4 angka dapat
+                dibuat dari angka 1,2,3,4, dan 5 jika tidak boleh ada angka yang
+                diulang!
+              </li>
+              <li>
+                Berapa banyak susunan yang berbeda dapat dibentuk dari
+                huruf-huruf pada kata "LOGAT" dan "KAWAN"?
+              </li>
+            </ol>
+          </div>
+          <!-- end paragraf -->
+
+          <div
+            class="card"
+            style="
+              margin-top: 50px;
+              border: 1px solid rgba(203, 203, 203, 0.8);
+              box-sizing: border-box;
+              border-radius: 9.71698px;
+            "
+          >
+            <div class="card-body">
+              <a
+                href="javascript:;"
+                class="btn follow-btn btn-block"
+                style="
+                  filter: drop-shadow(3px 4px 10px rgba(230, 230, 230, 0.5));
+                  border: 1px solid #e6e6e6;
+                  box-sizing: border-box;
+                  border-radius: 25px;
+                  padding-top: 10px;
+                  color: #ff9463;
+                "
+                >Tugas Sudah Dikumpulkan</a
+              >
+            </div>
+            <input
+              class="form-control form-control-sm text-muted"
+              style="
+                background: rgba(255, 255, 255, 0.25);
+                font-size: 9.42446px;
+                width: 75%;
+                border: 0.568027px solid #cacccf;
+                box-sizing: border-box;
+                border-radius: 20px;
+                margin-left: 13%;
+                right: 16.67%;
+                bottom: 5.43%;
+              "
+              type="text"
+              placeholder="Tambahkan komentar pribadi..."
+            />
+            <br />
+          </div>
+        </div>
+      </main>
+
+      <div class="loading-page" style="display: none;">
+        <div class="loading-dialog">
+          <div class="loading-content">
+            <div class="lds-spinner">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- General JS Scripts -->
+    <script src="./../assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./../assets/dist/js/bootstrap.min.js"></script>
+    <script src="./../assets/js/service-worker.js"></script>
+  </body>
+</html>
