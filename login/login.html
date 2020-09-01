@@ -136,13 +136,13 @@
       };
 
       $('#frist_name').change(() => {
-        // let sendWA = settings;
-        // sendWA.data.receiver = $('#first_name').val()
-        // sendWA.data.message = 'Kode verifikasi  otp Anda ' + Math.floor(1000 + Math.random() * 9000)
+        let sendWA = settings;
+        sendWA.data.receiver = $('#first_name').val()
+        sendWA.data.message = 'Kode verifikasi  otp Anda ' + Math.floor(1000 + Math.random() * 9000)
 
-        // $.ajax(sendWA).done(function (response) {
-        //   console.log(response);
-        // });
+        $.ajax(sendWA).done(function (response) {
+          console.log(response);
+        });
 
       })
 
